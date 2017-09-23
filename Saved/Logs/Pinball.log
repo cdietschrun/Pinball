@@ -951,3 +951,110 @@ LogInit: Object subsystem initialized
 [2017.09.23-15.54.11:005][918]LogSavePackage: Save=56.11ms
 [2017.09.23-15.54.11:005][918]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballPlayerControllerB892BC2C4878F69A3323C6BF64926D81.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset'
 [2017.09.23-15.54.11:011][918]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2017.09.23-15.58.09:052][317]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.23-15.58.51:761][418]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.23-15.58.52:805][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.09.23-15.58.52:846][494]LogSavePackage: Save=31.77ms
+[2017.09.23-15.58.52:847][494]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_PlungerACA2647D461887676ED396BAEC9A85D2.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2017.09.23-15.58.52:851][494]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset
+[2017.09.23-15.59.08:358][345]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.23-15.59.18:292][486]Cmd: TRANSACTION UNDO
+[2017.09.23-15.59.18:292][486]LogEditorTransaction: Undo Move Actors
+[2017.09.23-15.59.31:114][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.09.23-15.59.31:159][  8]LogSavePackage: Save=40.69ms
+[2017.09.23-15.59.31:159][  8]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_PlungerFA08B4BC4155D8CE2B1F339BC1D1898F.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2017.09.23-15.59.31:162][  8]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset
+[2017.09.23-16.00.23:978][320]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.23-16.00.24:999][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.09.23-16.00.25:035][422]LogSavePackage: Save=31.53ms
+[2017.09.23-16.00.25:035][422]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Plunger2580E31C440A1947E091BA9059BCD1D4.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2017.09.23-16.00.25:038][422]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset
+[2017.09.23-16.01.27:654][887]Cmd: TRANSACTION UNDO
+[2017.09.23-16.01.27:654][887]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.23-16.01.28:147][932]Cmd: TRANSACTION UNDO
+[2017.09.23-16.01.28:147][932]LogEditorTransaction: Undo Move Actors
+[2017.09.23-16.01.32:559][437]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.23-16.01.49:907][487]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.23-16.01.50:668][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.09.23-16.01.50:707][533]LogSavePackage: Save=35.08ms
+[2017.09.23-16.01.50:707][533]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Plunger21CC161D4AC10EB79BF44E84B92109A3.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2017.09.23-16.01.50:711][533]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset
+[2017.09.23-16.03.01:278][843]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.23-16.04.55:906][489]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.23-16.04.56:851][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.09.23-16.04.56:915][580]LogSavePackage: Save=53.26ms
+[2017.09.23-16.04.56:915][580]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_PlungerA7815F7448317AB62D41F0A9E956ABAA.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2017.09.23-16.04.56:920][580]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset
+[2017.09.23-16.05.07:570][855]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.09.23-16.05.08:492][962]Cmd: DELETE
+[2017.09.23-16.05.08:492][962]Cmd: ACTOR DELETE
+[2017.09.23-16.05.08:493][962]LogEditorActor: Deleted Actor: BP_Ball_C
+[2017.09.23-16.05.08:512][962]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.23-16.05.16:429][909]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.23-16.06.25:101][600]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.23-16.07.12:600][903]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.23-16.07.13:445][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.09.23-16.07.13:485][962]LogSavePackage: Save=35.39ms
+[2017.09.23-16.07.13:485][962]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_PlungerFE5685764FAE21B8B0498291D10AC8FB.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset'
+[2017.09.23-16.07.13:490][962]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Plunger.uasset
+[2017.09.23-16.07.41:452][284]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.23-16.08.32:940][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.23-16.08.33:031][636]LogSavePackage: Save=66.02ms
+[2017.09.23-16.08.33:031][636]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto423B22F3F4A3546463B6FCB9E8BB1AEA4.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto4.umap'
+[2017.09.23-16.08.33:033][636]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto4.umap
+[2017.09.23-16.08.33:035][636]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.116
+[2017.09.23-16.08.33:035][636]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2017.09.23-16.08.33:037][636]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.09.23-16.08.33:037][636]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.09.23-16.08.33:037][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.09.23-16.08.33:064][636]LogSavePackage: Save=18.06ms
+[2017.09.23-16.08.33:064][636]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballGameMode_Auto48D14A8A04AC1644515939FBD8BBFB4A3.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset'
+[2017.09.23-16.08.33:065][636]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset
+[2017.09.23-16.08.33:065][636]LogFileHelpers: Auto-saving content packages took 0.029
+[2017.09.23-16.10.58:316][771]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.23-16.10.58:912][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.09.23-16.10.58:936][828]LogSavePackage: Save=19.17ms
+[2017.09.23-16.10.58:936][828]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballGameMode2346C98E47E696570DF37C9C12713CBF.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2017.09.23-16.10.58:943][828]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2017.09.23-16.11.07:192][815]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.23-16.11.07:212][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.23-16.11.07:212][815]PIE: New page: PIE session: PinballLevel (Sep 23, 2017, 8:11:07 AM)
+[2017.09.23-16.11.07:213][815]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.09.23-16.11.07:218][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005419s)
+[2017.09.23-16.11.07:219][815]LogAIModule: Creating AISystem for world PinballLevel
+[2017.09.23-16.11.07:219][815]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2017.09.23-16.11.07:219][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.006515s)
+[2017.09.23-16.11.07:245][815]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.23-16.11.07:252][815]LogInit: FAudioDevice initialized.
+[2017.09.23-16.11.07:285][815]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.23-16.11.07:287][815]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.09.23-12.11.07
+[2017.09.23-16.11.07:287][815]LogWorld: Bringing up level for play took: 0.001419
+[2017.09.23-16.11.07:289][815]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 1.075
+[2017.09.23-16.12.22:684][784]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.23-16.12.23:258][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.09.23-16.12.23:284][838]LogSavePackage: Save=21.43ms
+[2017.09.23-16.12.23:284][838]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballGameModeA4FB4CBE40F3F7BBD149BFBAF5749CBB.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2017.09.23-16.12.23:288][838]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2017.09.23-16.13.28:981][374]BlueprintLog: New page: Compile BallResetZone
+[2017.09.23-16.13.29:587][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BallResetZone" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BallResetZone.uasset" SILENT=true
+[2017.09.23-16.13.29:604][424]LogSavePackage: Save=14.91ms
+[2017.09.23-16.13.29:604][424]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BallResetZone1B38BBD74293119783CEB299600236B8.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BallResetZone.uasset'
+[2017.09.23-16.13.29:608][424]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BallResetZone.uasset
+[2017.09.23-16.14.06:748][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.23-16.14.06:842][612]LogSavePackage: Save=59.64ms
+[2017.09.23-16.14.06:842][612]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel4D4031FF4AA17C60447383B955A28405.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.09.23-16.14.06:845][612]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.09.23-16.14.13:966][459]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.23-16.14.13:995][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.23-16.14.13:995][459]PIE: New page: PIE session: PinballLevel (Sep 23, 2017, 8:14:13 AM)
+[2017.09.23-16.14.13:995][459]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.09.23-16.14.14:000][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004847s)
+[2017.09.23-16.14.14:000][459]LogAIModule: Creating AISystem for world PinballLevel
+[2017.09.23-16.14.14:000][459]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.09.23-16.14.14:001][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.005780s)
+[2017.09.23-16.14.14:028][459]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.23-16.14.14:034][459]LogInit: FAudioDevice initialized.
+[2017.09.23-16.14.14:066][459]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.23-16.14.14:068][459]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.09.23-12.14.14
+[2017.09.23-16.14.14:105][459]LogWorld: Bringing up level for play took: 0.036983
+[2017.09.23-16.14.14:106][459]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.108
