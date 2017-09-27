@@ -1,0 +1,332 @@
+﻿Log file open, 09/27/17 17:01:51
+LogInit:Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-296768801) SRandInit(-296768800).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.205932
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.27-21.01.52:828][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.27-21.01.52:828][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.27-21.01.52:943][  0]LogInit: Computer: CDIETSCHDESKTOP
+[2017.09.27-21.01.52:943][  0]LogInit: User: cdietsch
+[2017.09.27-21.01.52:943][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.27-21.01.52:943][  0]LogInit: High frequency timer resolution =3.124093 MHz
+[2017.09.27-21.01.52:943][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.27-21.01.52:943][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.27-21.01.52:943][  0]LogMemory: Process Physical Memory: 272.96 MB used, 272.96 MB peak
+[2017.09.27-21.01.52:943][  0]LogMemory: Process Virtual Memory: 266.64 MB used, 266.64 MB peak
+[2017.09.27-21.01.52:943][  0]LogMemory: Physical Memory: 4772.50 MB used,  3339.83 MB free, 8112.32 MB total
+[2017.09.27-21.01.52:943][  0]LogMemory: Virtual Memory: 643.54 MB used,  3339.83 MB free, 134217728.00 MB total
+[2017.09.27-21.01.53:653][  0]LogInit: Using OS detected language (en-US).
+[2017.09.27-21.01.53:653][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.27-21.01.53:888][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.27-21.01.58:031][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.27-21.01.58:046][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
+[2017.09.27-21.01.58:046][  0]LogD3D11RHI:       3053/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.09.27-21.01.58:048][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.27-21.01.58:048][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.27-21.01.58:048][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.27-21.01.58:053][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.27-21.01.58:053][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.27-21.01.58:053][  0]LogWindows: EnumDisplayDevices:
+[2017.09.27-21.01.58:053][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
+[2017.09.27-21.01.58:053][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.09.27-21.01.58:053][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.09.27-21.01.58:054][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.09.27-21.01.58:054][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.09.27-21.01.58:054][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.09.27-21.01.58:054][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.09.27-21.01.58:054][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
+[2017.09.27-21.01.58:054][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.09.27-21.01.58:054][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.09.27-21.01.58:054][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.27-21.01.58:100][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.27-21.01.58:308][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.09.27-21.01.58:352][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../GameEngines/Udemy/Pinball/Intermediate/Shaders/WorkingDirectory/1180/).
+[2017.09.27-21.01.58:352][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cdietsch/AppData/Local/Temp/UnrealShaderWorkingDir/12EFE08B4C30D1BE25AA23963523C3B7/'.
+[2017.09.27-21.01.58:355][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.27-21.02.02:329][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.27-21.02.02:379][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.27-21.02.02:426][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.27-21.02.02:473][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.27-21.02.02:531][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.27-21.02.02:575][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.27-21.02.02:622][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.27-21.02.02:666][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.27-21.02.02:718][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.27-21.02.02:775][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.27-21.02.02:819][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.27-21.02.02:868][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.27-21.02.02:912][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.27-21.02.02:955][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.27-21.02.02:997][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.27-21.02.03:088][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.27-21.02.03:088][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.27-21.02.03:133][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.27-21.02.03:332][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.27-21.02.03:355][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.27-21.02.03:397][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.27-21.02.03:438][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.27-21.02.03:482][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.27-21.02.03:541][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.27-21.02.03:541][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.27-21.02.04:738][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.27-21.02.05:207][  0]LogDerivedDataCache: Loaded boot cache 0.47s 90MB C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.27-21.02.05:207][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.27-21.02.05:207][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameEngines/Udemy/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.27-21.02.05:207][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.27-21.02.05:207][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameEngines/Udemy/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.27-21.02.05:207][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.27-21.02.05:331][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.27-21.02.05:346][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cdietsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.27-21.02.05:396][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.27-21.02.05:439][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.27-21.02.05:510][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.27-21.02.05:510][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.27-21.02.12:967][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.27-21.02.13:884][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.27-21.02.14:399][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.27-21.02.14:546][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.27-21.02.14:600][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.27-21.02.14:600][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.27-21.02.14:600][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.27-21.02.18:877][  0]LogNetVersion: Pinball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 512650681)
+[2017.09.27-21.02.19:148][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2017.09.27-21.02.19:475][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.228665 seconds
+[2017.09.27-21.02.19:481][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.27-21.02.19:481][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.27-21.02.19:481][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.27-21.02.19:563][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.27-21.02.36:559][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.27-21.02.36:608][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.27-21.02.37:710][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.27-21.02.38:503][  0]SourceControl: Info Source control is disabled
+[2017.09.27-21.02.38:611][  0]SourceControl: Info Source control is disabled
+[2017.09.27-21.02.38:680][  0]SourceControl: Info Source control is disabled
+[2017.09.27-21.02.38:732][  0]SourceControl: Info Source control is disabled
+[2017.09.27-21.02.39:690][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.27-21.02.40:659][  0]LogEngine: Initializing Engine...
+[2017.09.27-21.02.40:686][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.09.27-21.02.41:363][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.27-21.02.41:363][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.27-21.02.41:687][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.27-21.02.41:766][  0]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.27-21.02.41:787][  0]LogInit: FAudioDevice initialized.
+[2017.09.27-21.02.41:834][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.27-21.02.41:843][  0]LogInit: Texture streaming: Enabled
+[2017.09.27-21.02.41:964][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.27-21.02.42:342][  0]LogInit: Transaction tracking system initialized
+[2017.09.27-21.02.42:763][  0]BlueprintLog: New page: Editor Load
+[2017.09.27-21.02.44:006][  0]LocalizationService: Info Localization service is disabled
+[2017.09.27-21.02.44:847][  0]LogConsoleResponse:Display: 
+[2017.09.27-21.02.46:650][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/' took 0.04s
+[2017.09.27-21.02.46:650][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.27-21.02.46:650][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.27-21.02.48:959][  0]SourceControl: Info Source control is disabled
+[2017.09.27-21.02.49:019][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.27-21.02.49:065][  0]LightingResults: New page: Lighting Build
+[2017.09.27-21.02.49:203][  0]MapCheck: New page: Map Check
+[2017.09.27-21.02.49:203][  0]LightingResults: New page: Lighting Build
+[2017.09.27-21.02.50:411][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.27-21.02.50:422][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.27-21.02.50:718][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.27-21.02.50:772][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.27-21.02.50:830][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.689ms to complete.
+[2017.09.27-21.02.50:830][  0]LogFileHelpers: Loading map 'Template_Default' took 1.829
+[2017.09.27-21.02.51:902][  0]LogCollectionManager: Loaded 0 collections in 0.001554 seconds
+[2017.09.27-21.02.52:013][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Saved/Collections/' took 0.01s
+[2017.09.27-21.02.52:013][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/Developers/cdietsch/Collections/' took 0.01s
+[2017.09.27-21.02.52:013][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/Collections/' took 0.01s
+[2017.09.27-21.02.52:013][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.09.27-21.02.52:039][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2329 classes and 491 folders.
+[2017.09.27-21.02.52:135][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.27-21.02.53:391][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.27-21.02.53:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.27-21.02.53:942][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.27-21.02.54:007][  0]LogSlate: Took 0.012144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.27-21.02.54:024][  0]LogSlate: Took 0.015370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.27-21.02.54:072][  0]LogSlate: Took 0.019788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.27-21.02.54:393][  0]LogRenderer: Reallocating scene render targets to support 816x444 NumSamples 1 (Frame:1).
+[2017.09.27-21.02.54:722][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.27-21.02.54:815][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.27-21.02.54:815][  0]LogLoad: (Engine Initialization) Total time: 73.94 seconds
+[2017.09.27-21.02.54:815][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.43 seconds
+[2017.09.27-21.02.54:815][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.27-21.02.54:815][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.27-21.02.55:170][  0]LogOcInput: OculusInput pre-init called
+[2017.09.27-21.02.55:171][  0]LogHMD: Starting GearVRController plugin
+[2017.09.27-21.02.55:253][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.27-21.02.55:513][  1]LogAssetRegistry: Asset discovery search completed in 36.3868 seconds
+[2017.09.27-21.02.55:515][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.27-21.02.55:515][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2017.09.27-21.02.56:172][  3]LogSlate: Took 0.015552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.27-21.02.59:583][ 13]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.27-21.03.44:649][129]Cmd: MAP LOAD FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.27-21.03.44:660][129]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.27-21.03.44:670][129]LightingResults: New page: Lighting Build
+[2017.09.27-21.03.44:670][129]LoadErrors: New page: Loading map: PinballLevel.umap
+[2017.09.27-21.03.44:681][129]MapCheck: New page: Map Check
+[2017.09.27-21.03.44:681][129]LightingResults: New page: Lighting Build
+[2017.09.27-21.03.45:536][129]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.27-21.03.45:656][129]LogAIModule: Creating AISystem for world PinballLevel
+[2017.09.27-21.03.45:817][129]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.27-21.03.45:890][129]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.27-21.03.45:949][129]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.935ms to complete.
+[2017.09.27-21.03.45:949][129]LogFileHelpers: Loading map 'PinballLevel' took 1.315
+[2017.09.27-21.03.49:322][485]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-21.03.49:440][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-21.03.49:475][485]PIE: New page: PIE session: PinballLevel (Sep 27, 2017, 1:03:49 PM)
+[2017.09.27-21.03.49:475][485]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.09.27-21.03.49:505][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030249s)
+[2017.09.27-21.03.49:506][485]LogAIModule: Creating AISystem for world PinballLevel
+[2017.09.27-21.03.49:506][485]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2017.09.27-21.03.49:506][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.031319s)
+[2017.09.27-21.03.49:528][485]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.27-21.03.49:534][485]LogInit: FAudioDevice initialized.
+[2017.09.27-21.03.49:603][485]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.27-21.03.49:620][485]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.09.27-17.03.49
+[2017.09.27-21.03.49:631][485]LogWorld: Bringing up level for play took: 0.011852
+[2017.09.27-21.03.49:709][485]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.27-21.03.49:805][485]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.591
+[2017.09.27-21.16.11:492][373]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_RailMouth.FBX)
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: Model, ItemCount : 1
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.27-21.16.11:567][373]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.27-21.16.11:573][373]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_RailMouth.FBX
+[2017.09.27-21.16.11:591][373]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.27-21.16.19:761][373]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_RailMouth.FBX
+[2017.09.27-21.16.19:768][373]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.27-21.16.19:789][373]LogStaticMesh: Building static mesh SM_RailMouth...
+[2017.09.27-21.16.19:827][373]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/SM_RailMouth.SM_RailMouth
+[2017.09.27-21.16.19:889][373]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.27-21.16.19:956][373]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_RailEnd.FBX)
+[2017.09.27-21.16.19:964][373]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_RailEnd.FBX
+[2017.09.27-21.16.19:971][373]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.27-21.16.19:978][373]LogStaticMesh: Building static mesh SM_RailEnd...
+[2017.09.27-21.16.19:996][373]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/SM_RailEnd.SM_RailEnd
+[2017.09.27-21.16.20:008][373]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.27-21.16.20:025][373]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_RailMid.FBX)
+[2017.09.27-21.16.20:034][373]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_RailMid.FBX
+[2017.09.27-21.16.20:041][373]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.27-21.16.20:046][373]LogStaticMesh: Building static mesh SM_RailMid...
+[2017.09.27-21.16.20:065][373]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/SM_RailMid.SM_RailMid
+[2017.09.27-21.16.20:077][373]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.27-21.16.36:424][615]LogRenderer: Reallocating scene render targets to support 1144x708 NumSamples 1 (Frame:243).
+[2017.09.27-21.17.35:015][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.022
+[2017.09.27-21.17.35:017][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_RailMouth] ([1] browsable assets)...
+[2017.09.27-21.17.35:031][ 97]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_RailMouth.SM_RailMouth]
+[2017.09.27-21.17.35:031][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_RailMouth]
+[2017.09.27-21.17.35:031][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_RailMouth" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailMouth_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.27-21.17.35:079][ 97]LogSavePackage: Save=33.16ms
+[2017.09.27-21.17.35:079][ 97]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_RailMouth_Auto1FCE20B2B4CD5D7C258569199DB477C5A.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailMouth_Auto1.uasset'
+[2017.09.27-21.17.35:083][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailMouth_Auto1.uasset
+[2017.09.27-21.17.35:084][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_RailEnd] ([1] browsable assets)...
+[2017.09.27-21.17.35:097][ 97]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_RailEnd.SM_RailEnd]
+[2017.09.27-21.17.35:097][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_RailEnd]
+[2017.09.27-21.17.35:097][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_RailEnd" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailEnd_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.27-21.17.35:112][ 97]LogSavePackage: Save=13.35ms
+[2017.09.27-21.17.35:112][ 97]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_RailEnd_Auto1259747194C53C1AB71A0A2B90B3694FA.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailEnd_Auto1.uasset'
+[2017.09.27-21.17.35:114][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailEnd_Auto1.uasset
+[2017.09.27-21.17.35:114][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_RailMid] ([1] browsable assets)...
+[2017.09.27-21.17.35:127][ 97]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_RailMid.SM_RailMid]
+[2017.09.27-21.17.35:127][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_RailMid]
+[2017.09.27-21.17.35:127][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_RailMid" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailMid_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.27-21.17.35:147][ 97]LogSavePackage: Save=12.82ms
+[2017.09.27-21.17.35:147][ 97]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_RailMid_Auto1F95704EA405237A24870A9B3DE05EF04.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailMid_Auto1.uasset'
+[2017.09.27-21.17.35:149][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_RailMid_Auto1.uasset
+[2017.09.27-21.17.35:149][ 97]LogFileHelpers: Auto-saving content packages took 0.134
+[2017.09.27-21.17.48:848][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_RailEnd" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailEnd.uasset" SILENT=true
+[2017.09.27-21.17.48:865][ 18]LogSavePackage: Save=14.06ms
+[2017.09.27-21.17.48:865][ 18]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_RailEnd3A5BE7194B7B1BDAFA9E5E8B67C54491.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailEnd.uasset'
+[2017.09.27-21.17.48:872][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailEnd.uasset
+[2017.09.27-21.18.30:982][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_RailMid" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailMid.uasset" SILENT=true
+[2017.09.27-21.18.30:998][  6]LogSavePackage: Save=13.24ms
+[2017.09.27-21.18.30:998][  6]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_RailMidA17A69F5499CE19C6C800C8F414156C9.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailMid.uasset'
+[2017.09.27-21.18.31:004][  6]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailMid.uasset
+[2017.09.27-21.19.02:369][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_RailMouth" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailMouth.uasset" SILENT=true
+[2017.09.27-21.19.02:387][638]LogSavePackage: Save=15.48ms
+[2017.09.27-21.19.02:387][638]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_RailMouth73790E1D4191E1E98665F79901B7A455.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailMouth.uasset'
+[2017.09.27-21.19.02:390][638]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_RailMouth.uasset
+[2017.09.27-21.19.18:126][932]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.09.27-21.19.25:220][594]LogSlate: Took 0.039202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.27-21.21.38:507][534]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.27-21.21.40:424][762]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.27-21.21.41:079][840]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.27-21.21.41:468][886]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.27-21.21.45:403][347]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.27-21.21.45:613][368]LogEditorTransaction: Undo Make New Scene Root
+[2017.09.27-21.21.45:786][385]LogEditorTransaction: Undo Add Component
+[2017.09.27-21.21.45:960][404]LogEditorTransaction: Undo Delete Collision
+[2017.09.27-21.21.46:209][433]LogEditorTransaction: Undo Delete Collision
+[2017.09.27-21.21.46:387][454]LogEditorTransaction: Undo Delete Collision
+[2017.09.27-21.21.46:555][474]LogEditorTransaction: Undo AddPin
+[2017.09.27-21.21.49:388][813]LogEditorTransaction: Redo AddPin
+[2017.09.27-21.21.49:814][864]LogEditorTransaction: Redo Delete Collision
+[2017.09.27-21.21.50:524][949]LogEditorTransaction: Redo Delete Collision
+[2017.09.27-21.21.50:991][  5]LogEditorTransaction: Redo Delete Collision
+[2017.09.27-21.21.51:568][ 74]LogEditorTransaction: Redo Add Component
+[2017.09.27-21.22.23:131][812]BlueprintLog: New page: Compile BP_Rail
+[2017.09.27-21.22.23:790][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Rail" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Rail.uasset" SILENT=true
+[2017.09.27-21.22.23:808][863]LogSavePackage: Save=16.09ms
+[2017.09.27-21.22.23:808][863]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Rail2A1270A442EBCF7543C136AA9CC1BF3D.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Rail.uasset'
+[2017.09.27-21.22.23:812][863]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Rail.uasset
+[2017.09.27-21.22.25:114][ 17]LogSlate: Took 0.014918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.27-21.26.17:115][442]BlueprintLog: New page: Compile BP_Rail
+[2017.09.27-21.26.17:141][442]LogMaterial:Warning: Material /Game/Assets/M_SimpleMetal.M_SimpleMetal needed to have new flag set bUsedWithSplineMeshes !
+[2017.09.27-21.26.17:143][442]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.09.27-21.26.17:818][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Rail" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Rail.uasset" SILENT=true
+[2017.09.27-21.26.18:421][498]LogSavePackage: Save=31.23ms
+[2017.09.27-21.26.18:421][498]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Rail787F4FE54EB4DE44CE5F57BCE5D07617.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Rail.uasset'
+[2017.09.27-21.26.18:424][498]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Rail.uasset
+[2017.09.27-21.27.19:196][630]LogEditorViewport: Clicking on Actor (LMB): BP_Rail_C (BP_Rail)
+[2017.09.27-21.30.34:109][524]BlueprintLog: New page: Compile BP_Rail
