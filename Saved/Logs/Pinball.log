@@ -354,3 +354,668 @@ LogInit: Object subsystem initialized
 [2017.09.28-21.31.06:365][966]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel4A84F25B464EA92E446367B695644C70.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
 [2017.09.28-21.31.06:388][966]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
 [2017.09.28-21.31.06:438][966]LogFileHelpers: Saving map 'PinballLevel' took 0.381
+[2017.09.28-21.37.13:944][723]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.09.28-21.37.16:083][970]Cmd: SELECT NONE
+[2017.09.28-21.37.16:959][ 55]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.09.28-21.37.17:806][153]Cmd: DELETE
+[2017.09.28-21.37.17:806][153]Cmd: ACTOR DELETE
+[2017.09.28-21.37.17:816][153]LogEditorActor: Deleted Actor: BP_Ball_C
+[2017.09.28-21.37.17:835][153]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.09.28-21.37.36:841][318]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_DropTarget.FBX)
+[2017.09.28-21.37.36:848][318]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-21.37.36:848][318]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-21.37.36:848][318]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-21.37.36:848][318]LogFbx: ItemName: Model, ItemCount : 1
+[2017.09.28-21.37.36:848][318]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.28-21.37.36:848][318]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.28-21.37.36:852][318]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_DropTarget.FBX
+[2017.09.28-21.37.36:858][318]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-21.37.39:991][318]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_DropTarget.FBX
+[2017.09.28-21.37.39:997][318]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-21.37.40:000][318]LogStaticMesh: Building static mesh SM_DropTarget...
+[2017.09.28-21.37.40:003][318]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/SM_DropTarget.SM_DropTarget
+[2017.09.28-21.37.40:012][318]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.28-21.37.48:422][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_DropTarget.uasset" SILENT=true
+[2017.09.28-21.37.48:439][153]LogSavePackage: Save=14.16ms
+[2017.09.28-21.37.48:439][153]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_DropTarget6F40A48B4FA3F85ADB381D8D6DD62E59.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_DropTarget.uasset'
+[2017.09.28-21.37.48:443][153]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_DropTarget.uasset
+[2017.09.28-21.38.45:466][670]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.38.46:185][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.38.46:206][721]LogSavePackage: Save=19.36ms
+[2017.09.28-21.38.46:206][721]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget907A282348667D0DFE1E9599B8304EC5.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.38.46:210][721]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.39.07:339][105]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Drop  and was replaced as a Custom Event!
+[2017.09.28-21.39.07:348][105]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Drop  and was replaced as a Custom Event!
+[2017.09.28-21.40.06:197][908]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Drop  and was replaced as a Custom Event!
+[2017.09.28-21.40.08:437][175]LogEditorTransaction: Undo Paste clipboard contents
+[2017.09.28-21.40.13:232][628]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/BP_DropTarget.BP_DropTarget:EventGraph.K2Node_VariableGet_124 or K2Node_VariableGet /Game/Blueprints/BP_DropTarget.BP_DropTarget:EventGraph.K2Node_VariableGet_124
+[2017.09.28-21.40.13:232][628]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/BP_DropTarget.BP_DropTarget:EventGraph.K2Node_CallFunction_10 or K2Node_CallFunction /Game/Blueprints/BP_DropTarget.BP_DropTarget:EventGraph.K2Node_CallFunction_10
+[2017.09.28-21.40.13:233][628]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Drop  and was replaced as a Custom Event!
+[2017.09.28-21.40.23:877][899]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.40.24:918][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.40.24:983][991]LogSavePackage: Save=52.40ms
+[2017.09.28-21.40.24:983][991]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetE57777D444999756F8B267B27E29BDD5.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.40.24:987][991]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.40.28:948][460]LogEditorTransaction: Undo Paste clipboard contents
+[2017.09.28-21.40.37:272][235]LogEditorTransaction: Undo Add Node
+[2017.09.28-21.42.41:075][895]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.42.41:791][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.42.41:849][959]LogSavePackage: Save=51.55ms
+[2017.09.28-21.42.41:849][959]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget39624CEE4754B25B72067D99E2675742.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.42.41:852][959]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.43.17:298][925]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.43.17:853][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.43.17:900][971]LogSavePackage: Save=41.37ms
+[2017.09.28-21.43.17:900][971]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget59B9E171440AB8DFDC7FB3B7F3C62153.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.43.17:905][971]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.44.07:315][352]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.44.07:895][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.44.07:972][400]LogSavePackage: Save=70.57ms
+[2017.09.28-21.44.07:972][400]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetBE13DD7E45BAA98319E8E3999BE5087C.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.44.07:975][400]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.44.52:065][151]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.44.52:665][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.44.52:717][202]LogSavePackage: Save=45.47ms
+[2017.09.28-21.44.52:717][202]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget244AED1A4CBD9CCCAB295A95D03B8239.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.44.52:721][202]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.45.17:565][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-21.45.17:737][328]LogSavePackage: Save=106.02ms
+[2017.09.28-21.45.17:737][328]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto2D16E0D52454DB347E25C469B3EEF2FC8.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto2.umap'
+[2017.09.28-21.45.17:739][328]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto2.umap
+[2017.09.28-21.45.17:741][328]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.195
+[2017.09.28-21.45.17:741][328]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.195
+[2017.09.28-21.45.24:164][ 83]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.45.24:765][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.45.24:838][135]LogSavePackage: Save=61.83ms
+[2017.09.28-21.45.24:838][135]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetE13EA365471B88207B9314BBBFB2729D.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.45.24:841][135]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.47.11:232][179]Cmd: MODE GRID=0
+[2017.09.28-21.48.39:830][993]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.48.40:626][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.48.40:673][ 49]LogSavePackage: Save=40.99ms
+[2017.09.28-21.48.40:673][ 49]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget37BE6D47480ECB531F724F8D7CD8F97D.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.48.40:676][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.48.49:001][774]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.48.49:518][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.48.49:566][815]LogSavePackage: Save=42.12ms
+[2017.09.28-21.48.49:567][815]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget294EC9C24A635634BB19BEA3F8011714.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.48.49:570][815]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.49.20:399][438]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.49.21:511][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.49.21:562][551]LogSavePackage: Save=44.05ms
+[2017.09.28-21.49.21:562][551]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget3665B72B4DEC7BAC9E0DA6AF73811F4D.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.49.21:566][551]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.50.01:638][818]BlueprintLog: New page: Compile BP_DropTarget
+[2017.09.28-21.50.02:393][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2017.09.28-21.50.02:473][888]LogSavePackage: Save=72.90ms
+[2017.09.28-21.50.02:473][888]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTarget250FE8AF46810FA3ADDC3F8A762A3685.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset'
+[2017.09.28-21.50.02:477][888]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTarget.uasset
+[2017.09.28-21.50.06:163][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.28-21.50.06:265][310]LogSavePackage: Save=79.33ms
+[2017.09.28-21.50.06:265][310]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevelB53F087043F01226291FA4BA22153DDF.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.09.28-21.50.06:269][310]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.09.28-21.50.06:321][310]LogFileHelpers: Saving map 'PinballLevel' took 0.225
+[2017.09.28-21.50.47:017][612]LogMetaData: Removing '/Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_VariableBand_Child.PackageMetaData'
+[2017.09.28-21.50.47:017][612]LogMetaData: Removing '/Game/Blueprints/BP_DropTargetSet.SKEL_BP_DropTargetSet_C' ref from Metadata '/Game/Blueprints/BP_VariableBand_Child.PackageMetaData'
+[2017.09.28-21.50.47:017][612]LogMetaData: Removing '/Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C' ref from Metadata '/Game/Blueprints/BP_VariableBand_Child.PackageMetaData'
+[2017.09.28-21.50.47:017][612]LogMetaData: Removing '/Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_VariableBand_Child.PackageMetaData'
+[2017.09.28-21.50.47:017][612]LogMetaData: Removing '/Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_VariableBand_Child.PackageMetaData'
+[2017.09.28-21.50.47:017][612]LogMetaData: Removing '/Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_VariableBand_Child.PackageMetaData'
+[2017.09.28-21.50.47:072][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-21.50.47:098][612]LogSavePackage: Save=23.43ms
+[2017.09.28-21.50.47:098][612]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet31EBF6F547E3A87AB7B1988377E07ECA.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-21.50.47:101][612]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-21.51.16:206][357]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-21.51.16:944][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-21.51.17:037][402]LogSavePackage: Save=23.42ms
+[2017.09.28-21.51.17:037][402]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetBEE70B0F4DD4703C77695C9717C7BD1B.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-21.51.17:040][402]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-21.51.20:816][735]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-21.51.21:298][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-21.51.21:348][775]LogSavePackage: Save=44.14ms
+[2017.09.28-21.51.21:348][775]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet8EA49CB2472241B1FFCD56B008E8066B.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-21.51.21:351][775]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-21.54.05:794][709]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.28-21.54.47:144][937]LogEditorTransaction: Undo Add Node
+[2017.09.28-21.55.05:800][305]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-21.55.23:966][132]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-21.55.24:652][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-21.55.24:715][194]LogSavePackage: Save=54.65ms
+[2017.09.28-21.55.24:715][194]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet7A0186954A8D42F538A2A3A27271B979.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-21.55.24:720][194]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-21.57.50:751][469]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-21.57.52:023][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-21.57.52:091][530]LogSavePackage: Save=56.11ms
+[2017.09.28-21.57.52:091][530]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBandA547CFD84744F9DB71C18F8CC6A92C16.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-21.57.52:094][530]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-21.59.53:648][985]LogEditorTransaction: Undo Add Node
+[2017.09.28-22.00.50:363][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-22.00.50:496][166]LogSavePackage: Save=81.94ms
+[2017.09.28-22.00.50:496][166]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto3CB59A9F545F0B5780F455494BF620B97.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto3.umap'
+[2017.09.28-22.00.50:499][166]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto3.umap
+[2017.09.28-22.00.50:504][166]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.162
+[2017.09.28-22.00.50:504][166]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.162
+[2017.09.28-22.00.50:505][166]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_DropTargetSet] ([1] browsable assets)...
+[2017.09.28-22.00.50:520][166]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet]
+[2017.09.28-22.00.50:520][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_DropTargetSet]
+[2017.09.28-22.00.50:520][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.28-22.00.50:579][166]LogSavePackage: Save=47.04ms
+[2017.09.28-22.00.50:579][166]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet_Auto3F114E79C4FD8549009F63D9068E27862.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto3.uasset'
+[2017.09.28-22.00.50:581][166]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto3.uasset
+[2017.09.28-22.00.50:581][166]LogFileHelpers: Auto-saving content packages took 0.076
+[2017.09.28-22.01.10:252][470]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.01.30:399][993]LogEditorViewport: Clicking on Actor (LMB): BP_VariableBand_C (BP_VariableBand)
+[2017.09.28-22.01.31:635][137]Cmd: DELETE
+[2017.09.28-22.01.31:635][137]Cmd: ACTOR DELETE
+[2017.09.28-22.01.31:635][137]LogEditorActor: Deleted Actor: BP_VariableBand_C
+[2017.09.28-22.01.31:655][137]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.28-22.01.39:203][850]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.01.42:564][236]Cmd: SELECT NONE
+[2017.09.28-22.01.49:936][418]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.01.54:222][919]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.01.55:167][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.02.40:455][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.28-22.03.46:835][873]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.03.48:179][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-22.03.48:247][991]LogSavePackage: Save=55.49ms
+[2017.09.28-22.03.48:247][991]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBand55A56FA740F5B1040FDE01A58DCD45EC.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-22.03.48:251][991]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-22.03.54:188][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.03.54:242][671]LogSavePackage: Save=47.84ms
+[2017.09.28-22.03.54:242][671]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetB9ADE426418DE94B5088B486B360214E.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.03.54:248][671]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.03.56:941][993]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.03.57:878][103]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.03.58:883][216]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.04.48:200][441]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.04.48:256][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:256][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:257][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:257][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:258][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:341][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:342][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:342][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:343][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:344][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:346][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:347][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:347][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:347][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:348][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:350][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_18:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:350][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_18:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:351][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_18:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:351][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_18:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:352][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_18:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:354][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:354][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:355][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:355][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.04.48:356][441]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:240][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:241][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:241][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:242][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:242][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:244][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:244][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:245][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:245][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:246][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:248][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:249][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:249][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:250][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:250][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:252][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_18:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:253][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_18:PersistentLevel.BP_DropTargetSet_C_1
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:256][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:257][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:257][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:257][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:258][271]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:518][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:519][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:519][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:519][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:520][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:521][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:522][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:522][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:522][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:523][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:529][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:529][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:530][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:530][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:531][296]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:688][309]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:689][309]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_16:PersistentLevel.BP_VariableBand_Child_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:692][309]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:692][309]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Engine/Transient.World_17:PersistentLevel.BP_DropTargetSet_C_0
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:699][309]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.12:699][309]LogScript:Warning: Accessed None trying to read property Post2
+	BP_DropTargetSet_C /Game/PinballLevel.PinballLevel:PersistentLevel.BP_DropTargetSet_635
+	Function /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet_C:UserConstructionScript:02C6
+[2017.09.28-22.05.15:256][597]LogEditorTransaction: Undo Create Pin Link
+[2017.09.28-22.05.16:411][728]LogEditorTransaction: Undo Create Pin Link
+[2017.09.28-22.05.16:830][771]LogEditorTransaction: Undo Delete current selection
+[2017.09.28-22.05.18:698][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-22.05.18:760][984]LogSavePackage: Save=55.69ms
+[2017.09.28-22.05.18:760][984]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBandEBC76B9D411F47B173B76E8C57D56941.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-22.05.18:763][984]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-22.05.19:199][ 36]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.05.19:911][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-22.05.19:972][ 85]LogSavePackage: Save=54.64ms
+[2017.09.28-22.05.19:972][ 85]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBand11020CB445EC6EEDB6A2BC8C00E5FE3F.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-22.05.19:973][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-22.05.28:897][148]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.05.29:909][262]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.09.34:039][245]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.09.34:742][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-22.09.34:814][295]LogSavePackage: Save=59.55ms
+[2017.09.28-22.09.34:814][295]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBand8423084B48E2B05E00ADD599D0947579.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-22.09.34:819][295]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-22.09.37:179][569]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.10.51:155][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-22.10.51:270][545]LogSavePackage: Save=98.88ms
+[2017.09.28-22.10.51:270][545]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto43B0A676B456BAC055EDE53B52F4DF55E.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto4.umap'
+[2017.09.28-22.10.51:272][545]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto4.umap
+[2017.09.28-22.10.51:275][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.154
+[2017.09.28-22.10.51:275][545]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.154
+[2017.09.28-22.10.51:277][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_DropTargetSet] ([1] browsable assets)...
+[2017.09.28-22.10.51:294][545]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet]
+[2017.09.28-22.10.51:294][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_DropTargetSet]
+[2017.09.28-22.10.51:294][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.09.28-22.10.51:356][545]LogSavePackage: Save=49.15ms
+[2017.09.28-22.10.51:356][545]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet_Auto4F77D10F544CB419026AF608E71E73D77.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto4.uasset'
+[2017.09.28-22.10.51:358][545]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto4.uasset
+[2017.09.28-22.10.51:358][545]LogFileHelpers: Auto-saving content packages took 0.082
+[2017.09.28-22.15.32:373][751]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.15.33:028][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.15.33:086][803]LogSavePackage: Save=51.19ms
+[2017.09.28-22.15.33:086][803]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet4B560C0C4FE46054B5668595D974AFE6.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.15.33:108][803]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.16.40:512][978]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.40:512][978]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.16.40:955][ 26]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.40:955][ 26]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.16.41:360][ 71]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.41:360][ 71]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.16.41:761][117]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.41:761][117]LogEditorTransaction: Undo Create Pin Link
+[2017.09.28-22.16.42:166][160]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.42:166][160]LogEditorTransaction: Undo Recombine Struct Pin
+[2017.09.28-22.16.42:608][208]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.42:608][208]LogEditorTransaction: Undo Break Pin Links
+[2017.09.28-22.16.42:917][240]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.42:917][240]LogEditorTransaction: Undo Create Pin Link
+[2017.09.28-22.16.43:148][263]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.43:148][263]LogEditorTransaction: Undo Add Node
+[2017.09.28-22.16.43:326][280]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.43:326][280]LogEditorTransaction: Undo Move Node
+[2017.09.28-22.16.43:497][296]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.43:497][296]LogEditorTransaction: Undo Add Node
+[2017.09.28-22.16.43:652][310]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.43:652][310]LogEditorTransaction: Undo Add Component Nodes
+[2017.09.28-22.16.43:824][326]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.43:824][326]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.16.43:983][342]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.43:983][342]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.16.44:135][358]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.44:135][358]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.16.44:498][400]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.44:498][400]LogEditorTransaction: Undo Rotate Actors
+[2017.09.28-22.16.44:734][426]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.44:734][426]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.16.44:985][454]Cmd: TRANSACTION UNDO
+[2017.09.28-22.16.44:985][454]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.28-22.16.45:912][560]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.16.46:310][603]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.16.46:868][668]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.17.44:431][473]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.17.44:766][512]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.17.45:320][578]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.17.46:732][747]LogEditorTransaction: Redo Move Actors
+[2017.09.28-22.17.48:409][948]LogEditorTransaction: Redo Move Actors
+[2017.09.28-22.17.48:544][964]LogEditorTransaction: Redo Move Actors
+[2017.09.28-22.18.16:045][227]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.18.16:752][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.18.16:833][273]LogSavePackage: Save=49.08ms
+[2017.09.28-22.18.16:833][273]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet3A404D6C492B5DE86E78C286B9787912.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.18.16:837][273]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.19.17:108][215]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.19.25:808][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.19.25:864][ 67]LogSavePackage: Save=48.75ms
+[2017.09.28-22.19.25:864][ 67]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetD12C3E2D4A7D288FF576DB93406FB5DA.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.19.25:868][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.19.28:327][361]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.19.29:057][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-22.19.29:134][410]LogSavePackage: Save=55.47ms
+[2017.09.28-22.19.29:134][410]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBandF7D4C68747DEF100D818A1BE967B2C1A.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-22.19.29:137][410]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-22.19.30:878][618]LogEditorViewport: Clicking Background
+[2017.09.28-22.19.31:387][677]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.20.06:653][720]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.20.07:250][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.20.07:306][765]LogSavePackage: Save=48.52ms
+[2017.09.28-22.20.07:306][765]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetCB41949A41E6767FD4E805A4CA91F152.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.20.07:309][765]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.20.51:459][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-22.20.51:584][126]LogSavePackage: Save=103.39ms
+[2017.09.28-22.20.51:584][126]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto5742CAA8049E4013F942F3BAA80E6DB56.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto5.umap'
+[2017.09.28-22.20.51:601][126]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto5.umap
+[2017.09.28-22.20.51:603][126]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.166
+[2017.09.28-22.20.51:603][126]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.166
+[2017.09.28-22.24.54:728][609]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.25.12:069][472]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.25.13:293][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-22.25.13:364][523]LogSavePackage: Save=57.18ms
+[2017.09.28-22.25.13:364][523]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBand61589788432530CA5E660E8882309632.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-22.25.13:369][523]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-22.25.18:621][987]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.28.47:059][173]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.28.57:564][398]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.29.05:665][268]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.30.31:203][ 73]BlueprintLog: New page: Compile BP_VariableBand
+[2017.09.28-22.30.31:704][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_VariableBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset" SILENT=true
+[2017.09.28-22.30.31:782][ 98]LogSavePackage: Save=56.15ms
+[2017.09.28-22.30.31:782][ 98]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_VariableBand4147C8AA43C0416B406E74A751074936.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset'
+[2017.09.28-22.30.31:784][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_VariableBand.uasset
+[2017.09.28-22.31.12:742][722]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.31.13:753][839]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.31.56:097][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-22.31.56:218][207]LogSavePackage: Save=108.59ms
+[2017.09.28-22.31.56:218][207]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto67484783242C39231C4BA3897BD0D6E75.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto6.umap'
+[2017.09.28-22.31.56:219][207]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto6.umap
+[2017.09.28-22.31.56:221][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.142
+[2017.09.28-22.31.56:221][207]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2017.09.28-22.31.56:224][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_DropTargetSet] ([1] browsable assets)...
+[2017.09.28-22.31.56:239][207]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet]
+[2017.09.28-22.31.56:239][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_DropTargetSet]
+[2017.09.28-22.31.56:239][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.28-22.31.56:309][207]LogSavePackage: Save=57.73ms
+[2017.09.28-22.31.56:309][207]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet_Auto6D7AB565E4F2E68CE866D0DB99EE63F35.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto6.uasset'
+[2017.09.28-22.31.56:310][207]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_DropTargetSet_Auto6.uasset
+[2017.09.28-22.31.56:310][207]LogFileHelpers: Auto-saving content packages took 0.088
+[2017.09.28-22.32.53:114][ 42]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.32.53:715][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.32.53:768][ 93]LogSavePackage: Save=46.60ms
+[2017.09.28-22.32.53:768][ 93]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetB0C1A32543D91153F8F6F19C87F46B93.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.32.53:774][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.33.15:407][311]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.33.16:696][461]Cmd: DELETE
+[2017.09.28-22.33.16:696][461]Cmd: ACTOR DELETE
+[2017.09.28-22.33.16:697][461]LogEditorActor: Deleted Actor: BP_DropTargetSet_C
+[2017.09.28-22.33.16:715][461]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.09.28-22.33.34:851][465]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.33.35:454][533]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.34.22:692][ 72]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.34.23:389][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.34.23:444][128]LogSavePackage: Save=48.79ms
+[2017.09.28-22.34.23:444][128]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetDB1025FF4F04726E2D50278D786FB406.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.34.23:448][128]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.34.50:560][757]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.36.38:013][458]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.36.38:674][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.36.38:732][513]LogSavePackage: Save=49.25ms
+[2017.09.28-22.36.38:732][513]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet868B7B2D43C32A409491C98AF831714C.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.36.38:737][513]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.36.48:225][ 19]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.36.48:754][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.36.49:866][205]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.36.50:095][227]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (NODE_AddStaticMeshComponent-0_5695)
+[2017.09.28-22.36.50:709][300]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (NODE_AddStaticMeshComponent-0_5695)
+[2017.09.28-22.36.53:028][523]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (NODE_AddStaticMeshComponent-0_5695)
+[2017.09.28-22.36.53:569][579]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (NODE_AddStaticMeshComponent-0_5695)
+[2017.09.28-22.36.54:679][685]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (NODE_AddChildActorComponent-0_13931)
+[2017.09.28-22.36.55:132][724]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (NODE_AddStaticMeshComponent-1_5696)
+[2017.09.28-22.36.56:621][869]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (NODE_AddStaticMeshComponent-0_5695)
+[2017.09.28-22.36.57:877][  8]Cmd: TRANSACTION UNDO
+[2017.09.28-22.36.57:877][  8]LogEditorTransaction: Undo Clicking on Components
+[2017.09.28-22.36.58:218][ 46]Cmd: TRANSACTION UNDO
+[2017.09.28-22.36.58:218][ 46]LogEditorTransaction: Undo Clicking on Components
+[2017.09.28-22.36.58:955][132]Cmd: TRANSACTION UNDO
+[2017.09.28-22.36.58:955][132]LogEditorTransaction: Undo Clicking on Components
+[2017.09.28-22.36.59:413][186]Cmd: TRANSACTION UNDO
+[2017.09.28-22.36.59:414][186]LogEditorTransaction: Undo Clicking on Components
+[2017.09.28-22.37.00:014][257]Cmd: TRANSACTION UNDO
+[2017.09.28-22.37.00:014][257]LogEditorTransaction: Undo Clicking on Components
+[2017.09.28-22.37.00:463][310]Cmd: TRANSACTION UNDO
+[2017.09.28-22.37.00:463][310]LogEditorTransaction: Undo Clicking on Components
+[2017.09.28-22.37.00:862][357]Cmd: TRANSACTION UNDO
+[2017.09.28-22.37.00:862][357]LogEditorTransaction: Undo Clicking on Components
+[2017.09.28-22.37.01:710][456]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.37.03:348][644]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.40.49:290][223]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.40.50:119][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.40.50:209][297]LogSavePackage: Save=54.09ms
+[2017.09.28-22.40.50:209][297]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetF5C7746641A8148F2437E6942271789A.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.40.50:213][297]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.42.21:446][637]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.42.22:070][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.42.22:131][687]LogSavePackage: Save=53.98ms
+[2017.09.28-22.42.22:131][687]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet53A1C345454188F770A3DEB48AFEB201.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.42.22:134][687]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.42.56:505][422]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.42.57:078][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.42.57:139][469]LogSavePackage: Save=54.78ms
+[2017.09.28-22.42.57:139][469]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSetF9699B6F479CE89FA33139B54089A14F.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.42.57:143][469]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.43.28:254][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.28-22.43.28:381][844]LogSavePackage: Save=99.70ms
+[2017.09.28-22.43.28:381][844]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto76635C2BD450C413CD95CE7985C9D5B0C.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto7.umap'
+[2017.09.28-22.43.28:383][844]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto7.umap
+[2017.09.28-22.43.28:386][844]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.152
+[2017.09.28-22.43.28:386][844]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.152
+[2017.09.28-22.45.45:683][815]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.45.46:281][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.45.46:360][864]LogSavePackage: Save=71.41ms
+[2017.09.28-22.45.46:360][864]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet8DC5D8CF414E21FDFAF3EA9B53B2BBC3.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.45.46:363][864]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.46.30:108][174]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.46.30:894][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.46.30:981][246]LogSavePackage: Save=70.78ms
+[2017.09.28-22.46.30:981][246]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet107CB66C498E076BCD826380E294ED00.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.46.30:985][246]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.47.00:817][716]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.47.02:923][936]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.47.11:694][761]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.47.55:985][166]Cmd: TRANSACTION UNDO
+[2017.09.28-22.47.55:985][166]LogEditorTransaction: Undo Move Actors
+[2017.09.28-22.48.25:445][997]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.49.03:479][812]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.49.03:953][866]Cmd: TRANSACTION UNDO
+[2017.09.28-22.49.03:953][866]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.28-22.49.05:998][ 83]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.49.06:678][162]Cmd: DELETE
+[2017.09.28-22.49.06:678][162]Cmd: ACTOR DELETE
+[2017.09.28-22.49.06:680][162]LogEditorActor: Deleted Actor: BP_DropTargetSet_C
+[2017.09.28-22.49.06:887][162]LogEditorActor: Deleted 1 Actors (0.208 secs)
+[2017.09.28-22.49.13:386][891]Cmd: TRANSACTION UNDO
+[2017.09.28-22.49.13:386][891]LogEditorTransaction: Undo Rotate Actors
+[2017.09.28-22.49.14:357][  3]Cmd: TRANSACTION UNDO
+[2017.09.28-22.49.14:357][  3]LogEditorTransaction: Undo Create Actors
+[2017.09.28-22.49.25:273][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.49.31:186][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.49.31:259][666]LogSavePackage: Save=65.39ms
+[2017.09.28-22.49.31:259][666]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet7F90C484492D0D45D4D06586173196BD.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.49.31:263][666]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.49.54:960][296]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.49.57:375][568]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.50.42:724][154]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.28-22.50.43:629][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.28-22.50.43:703][203]LogSavePackage: Save=65.98ms
+[2017.09.28-22.50.43:703][203]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_DropTargetSet9C5B4BF7428863550F808A86FBE268DC.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.28-22.50.43:706][203]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.28-22.50.49:798][845]Cmd: DELETE
+[2017.09.28-22.50.49:798][845]Cmd: ACTOR DELETE
+[2017.09.28-22.50.49:799][845]LogEditorActor: Deleted Actor: BP_DropTargetSet_C
+[2017.09.28-22.50.49:833][845]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.09.28-22.51.00:476][905]Cmd: TRANSACTION UNDO
+[2017.09.28-22.51.00:476][905]LogEditorTransaction: Undo Rotate Actors
+[2017.09.28-22.51.10:788][130]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.51.27:046][642]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.51.34:556][ 35]Cmd: MODE GRID=1
+[2017.09.28-22.51.42:647][800]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper4)
+[2017.09.28-22.51.45:754][134]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.51.51:186][682]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper2)
+[2017.09.28-22.51.58:295][116]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.52.05:546][835]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.52.07:171][ 18]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.52.24:673][687]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.28-22.52.24:796][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-22.52.24:864][687]PIE: New page: PIE session: PinballLevel (Sep 28, 2017, 2:52:24 PM)
+[2017.09.28-22.52.24:877][687]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.09.28-22.52.24:922][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045200s)
+[2017.09.28-22.52.24:923][687]LogAIModule: Creating AISystem for world PinballLevel
+[2017.09.28-22.52.24:923][687]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2017.09.28-22.52.24:933][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.055881s)
+[2017.09.28-22.52.25:068][687]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.28-22.52.25:076][687]LogInit: FAudioDevice initialized.
+[2017.09.28-22.52.25:135][687]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.28-22.52.25:175][687]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.09.28-18.52.25
+[2017.09.28-22.52.25:232][687]LogWorld: Bringing up level for play took: 0.076919
+[2017.09.28-22.52.25:343][687]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.09.28-22.52.25:436][687]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 1.21
+[2017.09.28-22.52.44:088][853]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.09.28-22.52.50:772][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.28-22.52.50:946][456]LogSavePackage: Save=130.44ms
+[2017.09.28-22.52.50:946][456]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel1F08E4BF427E6911E9C8099A5695C374.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.09.28-22.52.50:952][456]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.09.28-22.53.10:568][698]Cmd: SELECT NONE
