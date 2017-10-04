@@ -752,3 +752,217 @@ LogInit: Object subsystem initialized
 [2017.10.04-19.24.04:910][856]LogSavePackage: Save=103.87ms
 [2017.10.04-19.24.04:910][856]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballGameMode6C61142544E551E1FC53D985F778A8DB.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset'
 [2017.10.04-19.24.04:914][856]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2017.10.04-19.26.30:001][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-19.26.30:597][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-19.26.34:578][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.04-19.26.34:700][443]LogSavePackage: Save=97.32ms
+[2017.10.04-19.26.34:700][443]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevelCED53113459E8E7E258DDFB57B438069.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.10.04-19.26.34:705][443]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.10.04-19.26.34:761][443]LogFileHelpers: Saving map 'PinballLevel' took 0.253
+[2017.10.04-19.27.00:553][907]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_LBracket.FBX)
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: Material, ItemCount : 2
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.10.04-19.27.00:655][907]LogFbx: ItemName: Video, ItemCount : 2
+[2017.10.04-19.27.00:663][907]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_LBracket.FBX
+[2017.10.04-19.27.00:682][907]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-19.27.02:079][907]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_LBracket.FBX
+[2017.10.04-19.27.02:086][907]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-19.27.02:119][907]LogStaticMesh: Building static mesh SM_LBracket...
+[2017.10.04-19.27.02:151][907]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/SM_LBracket.SM_LBracket
+[2017.10.04-19.27.02:189][907]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.04-19.27.25:510][642]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_SpinnerTile.FBX)
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.10.04-19.27.25:515][642]LogFbx: ItemName: Video, ItemCount : 1
+[2017.10.04-19.27.25:519][642]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_SpinnerTile.FBX
+[2017.10.04-19.27.25:525][642]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-19.27.26:655][642]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_SpinnerTile.FBX
+[2017.10.04-19.27.26:661][642]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-19.27.26:664][642]LogStaticMesh: Building static mesh SM_SpinnerTile...
+[2017.10.04-19.27.26:666][642]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/SM_SpinnerTile.SM_SpinnerTile
+[2017.10.04-19.27.26:675][642]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.04-19.27.38:409][831]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_BracketTop.FBX)
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.10.04-19.27.38:414][831]LogFbx: ItemName: Video, ItemCount : 1
+[2017.10.04-19.27.38:418][831]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_BracketTop.FBX
+[2017.10.04-19.27.38:424][831]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-19.27.39:580][831]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_BracketTop.FBX
+[2017.10.04-19.27.39:586][831]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-19.27.39:589][831]LogStaticMesh: Building static mesh SM_BracketTop...
+[2017.10.04-19.27.39:590][831]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/SM_BracketTop.SM_BracketTop
+[2017.10.04-19.27.39:597][831]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.04-19.28.00:205][984]LogRenderer: Reallocating scene render targets to support 912x540 NumSamples 1 (Frame:131).
+[2017.10.04-19.28.15:689][814]LogEditorTransaction: Undo Add Component
+[2017.10.04-19.36.25:824][966]LogEditorTransaction: Undo Modify Component(s)
+[2017.10.04-19.37.44:881][233]LogEditorTransaction: Undo Edit Phys Material Override
+[2017.10.04-19.38.13:943][326]LogEditorTransaction: Undo Set actor scale
+[2017.10.04-19.38.56:067][660]LogRenderer: Reallocating scene render targets to support 1144x708 NumSamples 1 (Frame:1).
+[2017.10.04-19.39.18:923][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_LBracket" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_LBracket.uasset" SILENT=true
+[2017.10.04-19.39.18:939][167]LogSavePackage: Save=13.76ms
+[2017.10.04-19.39.18:939][167]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_LBracket95F2CA5444DF1FCCB78C28AAC6C3E488.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_LBracket.uasset'
+[2017.10.04-19.39.18:945][167]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_LBracket.uasset
+[2017.10.04-19.39.32:752][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_BracketTop" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_BracketTop.uasset" SILENT=true
+[2017.10.04-19.39.32:833][403]LogSavePackage: Save=13.09ms
+[2017.10.04-19.39.32:833][403]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_BracketTop8FA923154A44600F770261B212165DE4.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_BracketTop.uasset'
+[2017.10.04-19.39.32:837][403]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_BracketTop.uasset
+[2017.10.04-19.43.52:424][404]BlueprintLog: New page: Compile BP_Spinner
+[2017.10.04-19.43.52:856][404]PIE:Warning: Warning Constraint in '/Engine/Transient.World_24:PersistentLevel.BP_Spinner_C_18.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2017.10.04-19.43.53:888][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Spinner" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset" SILENT=true
+[2017.10.04-19.43.53:915][519]LogSavePackage: Save=24.71ms
+[2017.10.04-19.43.53:915][519]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Spinner1EFF494E4FA35AF5B6B2EDA55AF67B98.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset'
+[2017.10.04-19.43.53:920][519]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset
+[2017.10.04-19.44.15:201][  5]BlueprintLog: New page: Compile BP_Spinner
+[2017.10.04-19.44.16:228][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Spinner" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset" SILENT=true
+[2017.10.04-19.44.16:264][108]LogSavePackage: Save=24.39ms
+[2017.10.04-19.44.16:264][108]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Spinner94F62F1C4922DD1305B74CB86BA2BEBF.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset'
+[2017.10.04-19.44.16:268][108]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset
+[2017.10.04-19.45.03:190][670]BlueprintLog: New page: Compile BP_Spinner
+[2017.10.04-19.45.03:506][670]PIE:Warning: Warning Constraint in '/Engine/Transient.World_24:PersistentLevel.BP_Spinner_C_20.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2017.10.04-19.45.03:956][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Spinner" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset" SILENT=true
+[2017.10.04-19.45.03:989][717]LogSavePackage: Save=26.17ms
+[2017.10.04-19.45.03:989][717]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_SpinnerD160DE104C2F1189742279A947B5F7AF.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset'
+[2017.10.04-19.45.03:993][717]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Spinner.uasset
+[2017.10.04-19.45.29:060][441]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.015
+[2017.10.04-19.45.29:062][441]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_SpinnerTile] ([1] browsable assets)...
+[2017.10.04-19.45.29:086][441]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_SpinnerTile.SM_SpinnerTile]
+[2017.10.04-19.45.29:086][441]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_SpinnerTile]
+[2017.10.04-19.45.29:086][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SpinnerTile" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_SpinnerTile_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.10.04-19.45.29:102][441]LogSavePackage: Save=13.98ms
+[2017.10.04-19.45.29:102][441]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_SpinnerTile_Auto4F1FC0FAD43B0B606AB54699D9432C9F0.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_SpinnerTile_Auto4.uasset'
+[2017.10.04-19.45.29:104][441]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_SpinnerTile_Auto4.uasset
+[2017.10.04-19.45.29:104][441]LogFileHelpers: Auto-saving content packages took 0.043
+[2017.10.04-19.46.25:652][393]Cmd: SELECT NONE
+[2017.10.04-19.46.28:018][662]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.46.28:039][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.46.28:039][662]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:46:28 AM)
+[2017.10.04-19.46.28:039][662]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.46.28:048][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008991s)
+[2017.10.04-19.46.28:048][662]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.46.28:049][662]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2017.10.04-19.46.28:049][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.009932s)
+[2017.10.04-19.46.28:074][662]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.46.28:081][662]LogInit: FAudioDevice initialized.
+[2017.10.04-19.46.28:111][662]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.46.28:115][662]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.46.28
+[2017.10.04-19.46.28:115][662]LogWorld: Bringing up level for play took: 0.002228
+[2017.10.04-19.46.28:117][662]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.904
+[2017.10.04-19.46.28:144][662]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-19.46.35:552][534]LogEditorViewport: Clicking on Actor (LMB): BP_Spinner_C (BP_Spinner)
+[2017.10.04-19.46.40:410][ 44]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.46.40:426][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.46.40:426][ 44]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:46:40 AM)
+[2017.10.04-19.46.40:426][ 44]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.46.40:434][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007851s)
+[2017.10.04-19.46.40:434][ 44]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.46.40:434][ 44]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.10.04-19.46.40:435][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008853s)
+[2017.10.04-19.46.40:502][ 44]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.46.40:508][ 44]LogInit: FAudioDevice initialized.
+[2017.10.04-19.46.40:542][ 44]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.46.40:546][ 44]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.46.40
+[2017.10.04-19.46.40:546][ 44]LogWorld: Bringing up level for play took: 0.002518
+[2017.10.04-19.46.40:549][ 44]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.665
+[2017.10.04-19.46.40:556][ 44]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-19.46.45:109][576]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.46.45:125][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.46.45:125][576]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:46:45 AM)
+[2017.10.04-19.46.45:125][576]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.46.45:133][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007683s)
+[2017.10.04-19.46.45:133][576]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.46.45:134][576]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2017.10.04-19.46.45:134][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008685s)
+[2017.10.04-19.46.45:156][576]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.46.45:162][576]LogInit: FAudioDevice initialized.
+[2017.10.04-19.46.45:194][576]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.46.45:197][576]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.46.45
+[2017.10.04-19.46.45:198][576]LogWorld: Bringing up level for play took: 0.002162
+[2017.10.04-19.46.45:200][576]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.014
+[2017.10.04-19.46.45:207][576]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-19.48.23:832][299]BlueprintLog: New page: Compile BP_Ball
+[2017.10.04-19.48.24:611][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2017.10.04-19.48.24:679][369]LogSavePackage: Save=55.51ms
+[2017.10.04-19.48.24:679][369]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_BallEE06C9824302571F427A71A2180AA8DE.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Ball.uasset'
+[2017.10.04-19.48.24:683][369]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Ball.uasset
+[2017.10.04-19.48.26:452][580]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.48.26:477][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.48.26:477][580]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:48:26 AM)
+[2017.10.04-19.48.26:477][580]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.48.26:484][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007365s)
+[2017.10.04-19.48.26:485][580]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.48.26:485][580]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2017.10.04-19.48.26:485][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008297s)
+[2017.10.04-19.48.26:510][580]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.48.26:517][580]LogInit: FAudioDevice initialized.
+[2017.10.04-19.48.26:552][580]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.48.26:555][580]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.48.26
+[2017.10.04-19.48.26:556][580]LogWorld: Bringing up level for play took: 0.002285
+[2017.10.04-19.48.26:559][580]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.655
+[2017.10.04-19.48.26:567][580]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-19.48.35:533][595]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.04-19.48.36:700][704]LogEditorViewport: Clicking on Actor (LMB): BP_Spinner_C (BP_Spinner)
+[2017.10.04-19.49.29:278][261]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.49.29:297][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.49.29:297][261]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:49:29 AM)
+[2017.10.04-19.49.29:297][261]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.49.29:305][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007410s)
+[2017.10.04-19.49.29:305][261]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.49.29:305][261]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2017.10.04-19.49.29:305][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008370s)
+[2017.10.04-19.49.29:334][261]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.49.29:341][261]LogInit: FAudioDevice initialized.
+[2017.10.04-19.49.29:375][261]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.49.29:378][261]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.49.29
+[2017.10.04-19.49.29:379][261]LogWorld: Bringing up level for play took: 0.002485
+[2017.10.04-19.49.29:381][261]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.168
+[2017.10.04-19.49.29:388][261]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-19.49.43:655][955]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.49.43:674][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.49.43:674][955]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:49:43 AM)
+[2017.10.04-19.49.43:674][955]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.49.43:681][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007675s)
+[2017.10.04-19.49.43:682][955]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.49.43:682][955]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.10.04-19.49.43:682][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008588s)
+[2017.10.04-19.49.43:714][955]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.49.43:722][955]LogInit: FAudioDevice initialized.
+[2017.10.04-19.49.43:770][955]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.49.43:773][955]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.49.43
+[2017.10.04-19.49.43:773][955]LogWorld: Bringing up level for play took: 0.002135
+[2017.10.04-19.49.43:775][955]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.562
+[2017.10.04-19.49.43:783][955]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-19.49.49:787][664]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.49.49:806][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.49.49:806][664]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:49:49 AM)
+[2017.10.04-19.49.49:806][664]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.49.49:814][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007427s)
+[2017.10.04-19.49.49:814][664]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.49.49:814][664]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2017.10.04-19.49.49:815][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008513s)
+[2017.10.04-19.49.49:841][664]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.49.49:848][664]LogInit: FAudioDevice initialized.
+[2017.10.04-19.49.49:882][664]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.49.49:885][664]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.49.49
+[2017.10.04-19.49.49:886][664]LogWorld: Bringing up level for play took: 0.002219
+[2017.10.04-19.49.49:888][664]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.675
+[2017.10.04-19.49.49:895][664]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-19.50.20:365][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SpinnerTile" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SpinnerTile.uasset" SILENT=true
+[2017.10.04-19.50.20:381][923]LogSavePackage: Save=14.07ms
+[2017.10.04-19.50.20:381][923]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_SpinnerTileDDC7EFAF44A6929F8D8F89889F58C2A1.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SpinnerTile.uasset'
+[2017.10.04-19.50.20:385][923]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SpinnerTile.uasset
+[2017.10.04-19.50.26:185][567]Cmd: SELECT NONE
