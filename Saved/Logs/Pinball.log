@@ -1096,3 +1096,104 @@ LogInit: Object subsystem initialized
 [2017.10.04-20.44.26:437][398]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel80309FFA47B7AFC91A383CB2F2B00D7F.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
 [2017.10.04-20.44.26:441][398]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
 [2017.10.04-20.44.26:496][398]LogFileHelpers: Saving map 'PinballLevel' took 0.268
+[2017.10.04-20.45.06:094][219]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.04-20.45.16:929][263]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+[2017.10.04-20.45.16:929][263]LogTemp: CWD: D:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.04-20.45.16:929][263]LogTemp: Initial Dir: D:\Epic Games\UE_4.16
+[2017.10.04-20.45.16:929][263]LogTemp: Env CWD: D:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.04-20.45.16:929][263]LogTemp: BranchPath = CDIETSCHDESKTOP/D/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = CDIETSCHDESKTOP/D/Epic Games/UE_4.16/Engine/Binaries
+[2017.10.04-20.45.16:929][263]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.10.04-20.45.16:967][264]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\cdietsch\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.04-20.46.47:562][428]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.04-20.48.29:688][331]BlueprintLog: New page: Collapse to Function
+[2017.10.04-20.50.34:200][143]BlueprintLog: New page: Compile PinballPlayerController
+[2017.10.04-20.50.34:886][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2017.10.04-20.50.34:981][201]LogSavePackage: Save=79.52ms
+[2017.10.04-20.50.34:981][201]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballPlayerControllerC14D0FF84A719F58BD6956BB4782867F.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2017.10.04-20.50.34:984][201]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2017.10.04-20.50.49:206][893]BlueprintLog: New page: Compile PinballPlayerController
+[2017.10.04-20.50.52:875][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2017.10.04-20.50.52:961][309]LogSavePackage: Save=78.43ms
+[2017.10.04-20.50.52:961][309]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballPlayerControllerF1B01D014D26301B5B3AC29080498BB2.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2017.10.04-20.50.52:964][309]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2017.10.04-20.50.55:996][671]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-20.50.56:022][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-20.50.56:022][671]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 12:50:56 PM)
+[2017.10.04-20.50.56:022][671]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-20.50.56:030][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007380s)
+[2017.10.04-20.50.56:031][671]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-20.50.56:032][671]LogPlayLevel: PIE: World Init took: (0.001900s)
+[2017.10.04-20.50.56:032][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.009524s)
+[2017.10.04-20.50.56:059][671]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-20.50.56:066][671]LogInit: FAudioDevice initialized.
+[2017.10.04-20.50.56:102][671]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-20.50.56:105][671]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-16.50.56
+[2017.10.04-20.50.56:105][671]LogWorld: Bringing up level for play took: 0.002352
+[2017.10.04-20.50.56:108][671]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.894
+[2017.10.04-20.50.56:116][671]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-20.52.05:225][564]BlueprintLog: New page: Compile PinballGameMode
+[2017.10.04-20.52.10:266][113]BlueprintLog: New page: Compile PinballGameMode
+[2017.10.04-20.53.49:988][977]BlueprintLog: New page: Compile PinballGameMode
+[2017.10.04-20.53.50:836][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.10.04-20.53.50:970][ 45]LogSavePackage: Save=121.45ms
+[2017.10.04-20.53.50:970][ 45]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballGameModeDF58A7F94000389D6615A8AD704A3871.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2017.10.04-20.53.50:973][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2017.10.04-20.56.15:404][260]BlueprintLog: New page: Compile PinballPlayerController
+[2017.10.04-20.56.15:980][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2017.10.04-20.56.16:082][300]LogSavePackage: Save=87.65ms
+[2017.10.04-20.56.16:082][300]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballPlayerControllerB8BE83A44D6F83DA2BDE07B941FB0BB6.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2017.10.04-20.56.16:087][300]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2017.10.04-20.56.33:725][412]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-20.56.33:749][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-20.56.33:749][412]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 12:56:33 PM)
+[2017.10.04-20.56.33:749][412]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-20.56.33:757][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007720s)
+[2017.10.04-20.56.33:759][412]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-20.56.33:759][412]LogPlayLevel: PIE: World Init took: (0.002264s)
+[2017.10.04-20.56.33:759][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.010279s)
+[2017.10.04-20.56.33:787][412]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-20.56.33:794][412]LogInit: FAudioDevice initialized.
+[2017.10.04-20.56.33:828][412]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-20.56.33:831][412]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-16.56.33
+[2017.10.04-20.56.33:831][412]LogWorld: Bringing up level for play took: 0.002260
+[2017.10.04-20.56.33:834][412]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.62
+[2017.10.04-20.56.33:841][412]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-20.58.00:338][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.021
+[2017.10.04-20.58.00:340][ 71]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
+[2017.10.04-20.58.00:340][ 71]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
+[2017.10.04-20.58.00:436][ 71]LogSavePackage: Save=89.70ms
+[2017.10.04-20.58.00:436][ 71]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballPlayerController_Auto77DE9A0164E23DD1F189F2CB1BB5810D3.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto7.uasset'
+[2017.10.04-20.58.00:438][ 71]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto7.uasset
+[2017.10.04-20.58.00:438][ 71]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TiltShake] ([1] browsable assets)...
+[2017.10.04-20.58.00:439][ 71]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TiltShake]
+[2017.10.04-20.58.00:439][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TiltShake" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/TiltShake_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.10.04-20.58.00:446][ 71]LogSavePackage: Save=5.68ms
+[2017.10.04-20.58.00:446][ 71]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/TiltShake_Auto7551FE2C74AD55CBEB42418816B47BDDD.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/TiltShake_Auto7.uasset'
+[2017.10.04-20.58.00:448][ 71]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/TiltShake_Auto7.uasset
+[2017.10.04-20.58.00:448][ 71]LogFileHelpers: Auto-saving content packages took 0.109
+[2017.10.04-20.58.50:994][970]BlueprintLog: New page: Compile TiltShake
+[2017.10.04-20.58.51:694][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TiltShake" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/TiltShake.uasset" SILENT=true
+[2017.10.04-20.58.51:718][ 39]LogSavePackage: Save=21.08ms
+[2017.10.04-20.58.51:718][ 39]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/TiltShakeEF9D35DC43F657FC477779A8D921291E.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/TiltShake.uasset'
+[2017.10.04-20.58.51:726][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/TiltShake.uasset
+[2017.10.04-20.58.58:694][874]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.04-21.01.40:504][483]BlueprintLog: New page: Compile PinballPlayerController
+[2017.10.04-21.01.41:269][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2017.10.04-21.01.41:377][544]LogSavePackage: Save=94.31ms
+[2017.10.04-21.01.41:377][544]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballPlayerController5A72BF3F4B60AC3086A818A121ACB2B7.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2017.10.04-21.01.41:381][544]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballPlayerController.uasset
+[2017.10.04-21.01.50:632][652]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.01.50:661][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.01.50:661][652]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:01:50 PM)
+[2017.10.04-21.01.50:661][652]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.01.50:668][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007418s)
+[2017.10.04-21.01.50:669][652]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.01.50:670][652]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2017.10.04-21.01.50:670][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008937s)
+[2017.10.04-21.01.50:699][652]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.01.50:706][652]LogInit: FAudioDevice initialized.
+[2017.10.04-21.01.50:738][652]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.01.50:741][652]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.01.50
+[2017.10.04-21.01.50:741][652]LogWorld: Bringing up level for play took: 0.002206
+[2017.10.04-21.01.50:744][652]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.47
+[2017.10.04-21.01.50:751][652]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
