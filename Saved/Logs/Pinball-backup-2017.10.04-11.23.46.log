@@ -1,0 +1,1034 @@
+﻿Log file open, 10/03/17 21:25:46
+LogInit:Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1151261169) SRandInit(-1151261169).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.185150
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.04-01.25.47:099][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.04-01.25.47:099][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.04-01.25.47:147][  0]LogInit: Computer: CDIETSCHDESKTOP
+[2017.10.04-01.25.47:147][  0]LogInit: User: cdietsch
+[2017.10.04-01.25.47:147][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.04-01.25.47:147][  0]LogInit: High frequency timer resolution =3.124087 MHz
+[2017.10.04-01.25.47:147][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.04-01.25.47:147][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-01.25.47:147][  0]LogMemory: Process Physical Memory: 273.20 MB used, 273.20 MB peak
+[2017.10.04-01.25.47:147][  0]LogMemory: Process Virtual Memory: 266.70 MB used, 266.70 MB peak
+[2017.10.04-01.25.47:147][  0]LogMemory: Physical Memory: 4196.89 MB used,  3915.44 MB free, 8112.32 MB total
+[2017.10.04-01.25.47:147][  0]LogMemory: Virtual Memory: 643.54 MB used,  3915.44 MB free, 134217728.00 MB total
+[2017.10.04-01.25.47:387][  0]LogInit: Using OS detected language (en-US).
+[2017.10.04-01.25.47:387][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.04-01.25.47:562][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.04-01.25.50:909][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.04-01.25.50:925][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
+[2017.10.04-01.25.50:925][  0]LogD3D11RHI:       3053/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.10.04-01.25.50:947][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.04-01.25.50:947][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.04-01.25.50:947][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.04-01.25.50:952][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.04-01.25.50:952][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.04-01.25.50:952][  0]LogWindows: EnumDisplayDevices:
+[2017.10.04-01.25.50:952][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
+[2017.10.04-01.25.50:952][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.04-01.25.50:952][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.04-01.25.50:953][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.04-01.25.50:953][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.04-01.25.50:953][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.04-01.25.50:953][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.10.04-01.25.50:953][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
+[2017.10.04-01.25.50:953][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.10.04-01.25.50:953][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.10.04-01.25.50:953][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.04-01.25.50:998][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.04-01.25.51:009][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.10.04-01.25.51:009][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../GameEngines/Udemy/Pinball/Intermediate/Shaders/WorkingDirectory/8924/).
+[2017.10.04-01.25.51:009][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cdietsch/AppData/Local/Temp/UnrealShaderWorkingDir/7693ABC04B08225B1CDD0E9EE9E4FCB0/'.
+[2017.10.04-01.25.51:009][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.04-01.25.53:641][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.04-01.25.53:682][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.04-01.25.53:722][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.04-01.25.53:763][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.04-01.25.53:828][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.04-01.25.53:870][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.04-01.25.53:912][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.04-01.25.53:952][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.04-01.25.53:988][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.04-01.25.54:038][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.04-01.25.54:078][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.04-01.25.54:119][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.04-01.25.54:159][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.04-01.25.54:198][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.04-01.25.54:239][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.04-01.25.54:319][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.04-01.25.54:319][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.04-01.25.54:351][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.04-01.25.54:463][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.04-01.25.54:485][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.04-01.25.54:526][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.04-01.25.54:566][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.04-01.25.54:606][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.04-01.25.54:660][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.04-01.25.54:660][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.04-01.25.55:463][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.04-01.25.55:890][  0]LogDerivedDataCache: Loaded boot cache 0.43s 90MB C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.04-01.25.55:890][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.04-01.25.55:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameEngines/Udemy/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.04-01.25.55:890][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.04-01.25.55:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameEngines/Udemy/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.04-01.25.55:890][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.04-01.25.55:936][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.04-01.25.55:948][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cdietsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.04-01.25.55:958][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.04-01.25.55:958][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.04-01.25.56:007][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.04-01.25.56:007][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.04-01.26.01:297][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.04-01.26.01:609][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.04-01.26.01:971][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.04-01.26.02:151][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.04-01.26.02:205][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.04-01.26.02:205][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.04-01.26.02:205][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.04-01.26.04:551][  0]LogNetVersion: Pinball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 512650681)
+[2017.10.04-01.26.04:677][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.10.04-01.26.04:741][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.048801 seconds
+[2017.10.04-01.26.04:747][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.04-01.26.04:747][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.04-01.26.04:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.04-01.26.04:797][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.04-01.26.19:005][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.04-01.26.19:055][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.04-01.26.20:097][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.04-01.26.20:844][  0]SourceControl: Info Source control is disabled
+[2017.10.04-01.26.20:950][  0]SourceControl: Info Source control is disabled
+[2017.10.04-01.26.21:053][  0]SourceControl: Info Source control is disabled
+[2017.10.04-01.26.21:130][  0]SourceControl: Info Source control is disabled
+[2017.10.04-01.26.22:245][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.04-01.26.23:052][  0]LogEngine: Initializing Engine...
+[2017.10.04-01.26.23:056][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.10.04-01.26.23:577][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.04-01.26.23:577][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.04-01.26.23:708][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.04-01.26.23:733][  0]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.26.23:772][  0]LogInit: FAudioDevice initialized.
+[2017.10.04-01.26.23:820][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.04-01.26.23:828][  0]LogInit: Texture streaming: Enabled
+[2017.10.04-01.26.23:933][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.04-01.26.24:261][  0]LogInit: Transaction tracking system initialized
+[2017.10.04-01.26.24:579][  0]BlueprintLog: New page: Editor Load
+[2017.10.04-01.26.25:870][  0]LocalizationService: Info Localization service is disabled
+[2017.10.04-01.26.26:824][  0]LogConsoleResponse:Display: 
+[2017.10.04-01.26.28:219][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.04-01.26.28:219][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.04-01.26.28:746][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/' took 0.01s
+[2017.10.04-01.26.30:874][  0]SourceControl: Info Source control is disabled
+[2017.10.04-01.26.30:996][  0]LogSlate: Took 0.015187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.04-01.26.41:755][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.04-01.26.41:773][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.04-01.26.41:776][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.04-01.26.41:805][  0]LightingResults: New page: Lighting Build
+[2017.10.04-01.26.41:843][  0]MapCheck: New page: Map Check
+[2017.10.04-01.26.41:843][  0]LightingResults: New page: Lighting Build
+[2017.10.04-01.26.42:331][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.04-01.26.42:332][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.04-01.26.42:424][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.04-01.26.42:441][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.04-01.26.42:498][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.301ms to complete.
+[2017.10.04-01.26.42:498][  0]LogFileHelpers: Loading map 'Template_Default' took 0.722
+[2017.10.04-01.26.43:118][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1770_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_e8_0///####STATCAT_Advanced####
+[2017.10.04-01.26.43:118][  0]LogCollectionManager: Loaded 0 collections in 0.001511 seconds
+[2017.10.04-01.26.43:216][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Saved/Collections/' took 0.01s
+[2017.10.04-01.26.43:216][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/Developers/cdietsch/Collections/' took 0.01s
+[2017.10.04-01.26.43:216][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/Collections/' took 0.01s
+[2017.10.04-01.26.43:216][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.04-01.26.43:226][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2329 classes and 491 folders.
+[2017.10.04-01.26.43:302][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.04-01.26.44:422][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.04-01.26.44:510][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.04-01.26.44:701][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.04-01.26.44:763][  0]LogSlate: Took 0.019418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.04-01.26.44:795][  0]LogSlate: Took 0.014020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.04-01.26.45:089][  0]LogRenderer: Reallocating scene render targets to support 816x444 NumSamples 1 (Frame:1).
+[2017.10.04-01.26.45:303][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.04-01.26.45:411][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.04-01.26.45:412][  0]LogLoad: (Engine Initialization) Total time: 63.91 seconds
+[2017.10.04-01.26.45:412][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
+[2017.10.04-01.26.45:412][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.04-01.26.45:412][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.04-01.26.45:443][  0]LogOcInput: OculusInput pre-init called
+[2017.10.04-01.26.45:443][  0]LogHMD: Starting GearVRController plugin
+[2017.10.04-01.26.45:485][  0]LogAssetRegistry: Asset discovery search completed in 40.8304 seconds
+[2017.10.04-01.26.45:486][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.04-01.26.45:486][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.10.04-01.26.45:498][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.04-01.26.45:644][  0]LogSlate: Took 0.012626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-01.26.46:448][ 56]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-01.26.48:750][262]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-01.26.49:239][262]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.10.04-01.26.50:897][262]LogSlate: Took 0.011247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.04-01.26.51:332][263]LogSlate: Took 0.018550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.04-01.27.49:185][897]Cmd: MAP LOAD FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.04-01.27.49:185][897]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.04-01.27.49:186][897]LightingResults: New page: Lighting Build
+[2017.10.04-01.27.49:186][897]LoadErrors: New page: Loading map: PinballLevel.umap
+[2017.10.04-01.27.49:194][897]MapCheck: New page: Map Check
+[2017.10.04-01.27.49:194][897]LightingResults: New page: Lighting Build
+[2017.10.04-01.27.49:582][897]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.27.49:702][897]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.04-01.27.49:780][897]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.04-01.27.49:844][897]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.777ms to complete.
+[2017.10.04-01.27.49:844][897]LogFileHelpers: Loading map 'PinballLevel' took 0.660
+[2017.10.04-01.28.35:467][419]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_SlingbandMT.FBX)
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: Material, ItemCount : 3
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: AnimationCurve, ItemCount : 3
+[2017.10.04-01.28.35:475][419]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2017.10.04-01.28.35:476][419]LogFbx: ItemName: Video, ItemCount : 1
+[2017.10.04-01.28.35:480][419]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_SlingbandMT.FBX
+[2017.10.04-01.28.35:492][419]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-01.28.38:361][419]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_SlingbandMT.FBX
+[2017.10.04-01.28.38:373][419]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-01.28.38:388][419]LogStaticMesh: Building static mesh SM_SlingbandMT...
+[2017.10.04-01.28.38:431][419]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/SM_SlingbandMT.SM_SlingbandMT
+[2017.10.04-01.28.40:326][526]LogRenderer: Reallocating scene render targets to support 1144x708 NumSamples 1 (Frame:1).
+[2017.10.04-01.30.50:714][400]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.30.50:822][400]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.30.50:834][400]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.02:923][808]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.02:934][808]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-01.31.09:850][623]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.09:867][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-01.31.12:596][935]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.12:614][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-01.31.14:515][152]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.14:528][152]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-01.31.16:109][327]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.16:122][327]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-01.31.19:674][739]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.21:609][962]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.29:548][903]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.31.29:607][904]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.10.04-01.31.47:506][ 27]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.00:413][566]LogMaterialEditor: Applying material M_MorphBand
+[2017.10.04-01.32.01:006][566]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.01:065][566]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.01:100][566]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.01:150][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_MorphBand, compiling. 
+[2017.10.04-01.32.02:334][566]TextureStreamingBuild:Display: Compiling optional shaders took 1.191 seconds.
+[2017.10.04-01.32.03:277][673]LogMaterialEditor: Saving and Compiling material M_MorphBand
+[2017.10.04-01.32.04:987][673]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.04-01.32.05:002][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_MorphBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset" SILENT=true
+[2017.10.04-01.32.05:020][673]LogSavePackage: Save=15.98ms
+[2017.10.04-01.32.05:021][673]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/M_MorphBand343F3FA946489FB63F68FC96012FE37D.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset'
+[2017.10.04-01.32.05:025][673]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset
+[2017.10.04-01.32.20:390][354]LogActorFactory: Actor Factory created SM_SlingbandMT
+[2017.10.04-01.32.34:640][962]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.35:983][117]LogMaterialEditor: Saving and Compiling material M_MorphBand
+[2017.10.04-01.32.36:577][117]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.36:610][117]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.36:629][117]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.36:663][117]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_MorphBand, compiling. 
+[2017.10.04-01.32.37:403][117]TextureStreamingBuild:Display: Compiling optional shaders took 0.745 seconds.
+[2017.10.04-01.32.38:669][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_MorphBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset" SILENT=true
+[2017.10.04-01.32.38:740][117]LogSavePackage: Save=15.84ms
+[2017.10.04-01.32.38:740][117]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/M_MorphBand460860BD403E3C33C7029093363CD501.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset'
+[2017.10.04-01.32.38:744][117]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset
+[2017.10.04-01.32.41:684][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SlingbandMT" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset" SILENT=true
+[2017.10.04-01.32.41:700][450]LogSavePackage: Save=13.39ms
+[2017.10.04-01.32.41:700][450]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_SlingbandMT605BCE9D4527ADA51396D593D46FAB5E.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset'
+[2017.10.04-01.32.41:703][450]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset
+[2017.10.04-01.32.48:804][300]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.57:290][291]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.32.59:954][605]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.33.20:107][958]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.33.26:708][726]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.33.28:298][907]LogMaterialEditor: Saving and Compiling material M_MorphBand
+[2017.10.04-01.33.28:911][907]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.33.28:970][907]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.33.29:004][907]LogMaterial: Missing cached shader map for material M_MorphBand, compiling. 
+[2017.10.04-01.33.29:055][907]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_MorphBand, compiling. 
+[2017.10.04-01.33.30:268][907]TextureStreamingBuild:Display: Compiling optional shaders took 1.219 seconds.
+[2017.10.04-01.33.32:532][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_MorphBand" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset" SILENT=true
+[2017.10.04-01.33.32:553][907]LogSavePackage: Save=16.08ms
+[2017.10.04-01.33.32:554][907]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/M_MorphBandF50EF9DE4B7CA4AAE729128DB30BBFDA.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset'
+[2017.10.04-01.33.32:557][907]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_MorphBand.uasset
+[2017.10.04-01.34.56:615][468]Cmd: MODE GRID=0
+[2017.10.04-01.34.57:139][513]Cmd: MODE GRID=1
+[2017.10.04-01.34.57:586][564]Cmd: MODE GRID=0
+[2017.10.04-01.35.07:085][697]Cmd: MODE GRID=1
+[2017.10.04-01.37.11:425][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.37.11:455][ 84]LogSavePackage: Save=27.03ms
+[2017.10.04-01.37.11:456][ 84]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_SlingshotCBC9B1AC44DF018C0C248D91A28F22A7.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.37.11:459][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.37.11:960][143]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.37.12:891][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.37.12:965][213]LogSavePackage: Save=30.24ms
+[2017.10.04-01.37.12:965][213]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_SlingshotBCDAAF6D4495A1EC79056ABC6D8BCA62.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.37.12:967][213]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.37.39:102][218]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.37.39:229][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.37.39:247][218]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:37:39 PM)
+[2017.10.04-01.37.39:247][218]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.37.39:255][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007523s)
+[2017.10.04-01.37.39:255][218]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.37.39:256][218]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.10.04-01.37.39:256][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008655s)
+[2017.10.04-01.37.39:281][218]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.37.39:289][218]LogInit: FAudioDevice initialized.
+[2017.10.04-01.37.39:331][218]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.37.39:335][218]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.37.39
+[2017.10.04-01.37.39:353][218]LogWorld: Bringing up level for play took: 0.019750
+[2017.10.04-01.37.39:391][218]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.04-01.37.39:402][218]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.046
+[2017.10.04-01.37.46:591][ 57]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.37.49:914][438]Cmd: TRANSACTION UNDO
+[2017.10.04-01.37.49:914][438]LogEditorTransaction: Undo Move Actors
+[2017.10.04-01.37.56:749][227]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.37.56:766][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.37.56:766][227]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:37:56 PM)
+[2017.10.04-01.37.56:766][227]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.37.56:774][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007421s)
+[2017.10.04-01.37.56:774][227]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.37.56:775][227]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.10.04-01.37.56:775][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008261s)
+[2017.10.04-01.37.56:799][227]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.37.56:806][227]LogInit: FAudioDevice initialized.
+[2017.10.04-01.37.56:835][227]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.37.56:838][227]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.37.56
+[2017.10.04-01.37.56:838][227]LogWorld: Bringing up level for play took: 0.002248
+[2017.10.04-01.37.56:840][227]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.608
+[2017.10.04-01.38.03:492][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.38.09:407][656]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.38.09:424][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.38.09:424][656]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:38:09 PM)
+[2017.10.04-01.38.09:424][656]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.38.09:431][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006792s)
+[2017.10.04-01.38.09:432][656]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.38.09:432][656]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2017.10.04-01.38.09:432][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007617s)
+[2017.10.04-01.38.09:457][656]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.38.09:463][656]LogInit: FAudioDevice initialized.
+[2017.10.04-01.38.09:494][656]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.38.09:497][656]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.38.09
+[2017.10.04-01.38.09:497][656]LogWorld: Bringing up level for play took: 0.002326
+[2017.10.04-01.38.09:500][656]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.051
+[2017.10.04-01.38.20:916][  2]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.38.28:566][846]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.38.28:584][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.38.28:584][846]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:38:28 PM)
+[2017.10.04-01.38.28:584][846]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.38.28:591][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006956s)
+[2017.10.04-01.38.28:592][846]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.38.28:592][846]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2017.10.04-01.38.28:592][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007917s)
+[2017.10.04-01.38.28:644][846]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.38.28:650][846]LogInit: FAudioDevice initialized.
+[2017.10.04-01.38.28:683][846]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.38.28:687][846]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.38.28
+[2017.10.04-01.38.28:687][846]LogWorld: Bringing up level for play took: 0.002834
+[2017.10.04-01.38.28:689][846]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.759
+[2017.10.04-01.39.16:602][578]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.39.30:576][116]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.39.35:618][631]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.10.04-01.39.43:562][406]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.39.50:703][209]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.39.50:724][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.39.50:724][209]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:39:50 PM)
+[2017.10.04-01.39.50:724][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.39.50:731][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007622s)
+[2017.10.04-01.39.50:732][209]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.39.50:732][209]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.10.04-01.39.50:732][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008494s)
+[2017.10.04-01.39.50:760][209]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.39.50:767][209]LogInit: FAudioDevice initialized.
+[2017.10.04-01.39.50:796][209]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.39.50:799][209]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.39.50
+[2017.10.04-01.39.50:799][209]LogWorld: Bringing up level for play took: 0.002411
+[2017.10.04-01.39.50:801][209]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.647
+[2017.10.04-01.40.07:635][213]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.40.14:949][ 22]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.40.14:966][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.40.14:966][ 22]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:40:14 PM)
+[2017.10.04-01.40.14:966][ 22]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.40.14:973][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007104s)
+[2017.10.04-01.40.14:974][ 22]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.40.14:974][ 22]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.10.04-01.40.14:974][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007917s)
+[2017.10.04-01.40.14:998][ 22]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.40.15:004][ 22]LogInit: FAudioDevice initialized.
+[2017.10.04-01.40.15:036][ 22]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.40.15:039][ 22]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.40.15
+[2017.10.04-01.40.15:039][ 22]LogWorld: Bringing up level for play took: 0.002405
+[2017.10.04-01.40.15:041][ 22]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.407
+[2017.10.04-01.40.19:615][553]Cmd: TRANSACTION UNDO
+[2017.10.04-01.40.19:615][553]LogEditorTransaction: Undo Move Actors
+[2017.10.04-01.40.23:676][946]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.40.23:693][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.40.23:693][946]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:40:23 PM)
+[2017.10.04-01.40.23:693][946]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.40.23:700][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006943s)
+[2017.10.04-01.40.23:701][946]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.40.23:701][946]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2017.10.04-01.40.23:701][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007757s)
+[2017.10.04-01.40.23:725][946]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.40.23:731][946]LogInit: FAudioDevice initialized.
+[2017.10.04-01.40.23:763][946]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.40.23:766][946]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.40.23
+[2017.10.04-01.40.23:766][946]LogWorld: Bringing up level for play took: 0.002278
+[2017.10.04-01.40.23:769][946]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.32
+[2017.10.04-01.40.47:001][717]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.40.47:590][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.40.47:626][771]LogSavePackage: Save=28.50ms
+[2017.10.04-01.40.47:626][771]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot56BAD7CE4D354C205B2A15A13FADBDE4.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.40.47:630][771]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.40.49:922][ 44]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.40.49:939][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.40.49:939][ 44]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:40:49 PM)
+[2017.10.04-01.40.49:939][ 44]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.40.49:947][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007528s)
+[2017.10.04-01.40.49:947][ 44]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.40.49:948][ 44]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2017.10.04-01.40.49:948][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008849s)
+[2017.10.04-01.40.49:973][ 44]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.40.49:980][ 44]LogInit: FAudioDevice initialized.
+[2017.10.04-01.40.50:011][ 44]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.40.50:015][ 44]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.40.50
+[2017.10.04-01.40.50:015][ 44]LogWorld: Bringing up level for play took: 0.002716
+[2017.10.04-01.40.50:017][ 44]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.569
+[2017.10.04-01.40.58:259][ 15]Cmd: SELECT NONE
+[2017.10.04-01.40.59:264][134]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.41.11:980][589]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.41.11:997][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.41.11:998][589]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:41:11 PM)
+[2017.10.04-01.41.11:998][589]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.41.12:005][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007310s)
+[2017.10.04-01.41.12:005][589]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.41.12:006][589]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2017.10.04-01.41.12:006][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008155s)
+[2017.10.04-01.41.12:030][589]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.41.12:037][589]LogInit: FAudioDevice initialized.
+[2017.10.04-01.41.12:067][589]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.41.12:071][589]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.41.12
+[2017.10.04-01.41.12:071][589]LogWorld: Bringing up level for play took: 0.002386
+[2017.10.04-01.41.12:073][589]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.625
+[2017.10.04-01.41.30:550][754]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.41.39:741][741]Cmd: MODE GRID=0
+[2017.10.04-01.41.45:003][284]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.41.45:020][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.41.45:020][284]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:41:45 PM)
+[2017.10.04-01.41.45:020][284]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.41.45:027][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006800s)
+[2017.10.04-01.41.45:027][284]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.41.45:027][284]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.10.04-01.41.45:027][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007603s)
+[2017.10.04-01.41.45:052][284]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.41.45:059][284]LogInit: FAudioDevice initialized.
+[2017.10.04-01.41.45:092][284]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.41.45:095][284]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.41.45
+[2017.10.04-01.41.45:095][284]LogWorld: Bringing up level for play took: 0.002236
+[2017.10.04-01.41.45:097][284]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.351
+[2017.10.04-01.41.54:363][382]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.41.57:418][735]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.41.57:435][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.41.57:435][735]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:41:57 PM)
+[2017.10.04-01.41.57:435][735]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.41.57:442][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006675s)
+[2017.10.04-01.41.57:442][735]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.41.57:442][735]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2017.10.04-01.41.57:443][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007536s)
+[2017.10.04-01.41.57:467][735]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.41.57:474][735]LogInit: FAudioDevice initialized.
+[2017.10.04-01.41.57:508][735]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.41.57:512][735]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.41.57
+[2017.10.04-01.41.57:512][735]LogWorld: Bringing up level for play took: 0.002407
+[2017.10.04-01.41.57:514][735]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.066
+[2017.10.04-01.42.19:993][415]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.42.23:595][822]Cmd: SELECT NONE
+[2017.10.04-01.42.24:360][913]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.42.24:378][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.42.24:379][913]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:42:24 PM)
+[2017.10.04-01.42.24:379][913]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.42.24:386][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007347s)
+[2017.10.04-01.42.24:386][913]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.42.24:387][913]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.10.04-01.42.24:387][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008251s)
+[2017.10.04-01.42.24:412][913]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.42.24:419][913]LogInit: FAudioDevice initialized.
+[2017.10.04-01.42.24:453][913]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.42.24:456][913]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.42.24
+[2017.10.04-01.42.24:456][913]LogWorld: Bringing up level for play took: 0.002464
+[2017.10.04-01.42.24:459][913]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 1.01
+[2017.10.04-01.42.37:409][457]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.42.37:426][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.42.37:426][457]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:42:37 PM)
+[2017.10.04-01.42.37:426][457]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.42.37:434][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007601s)
+[2017.10.04-01.42.37:435][457]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.42.37:435][457]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2017.10.04-01.42.37:435][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008470s)
+[2017.10.04-01.42.37:460][457]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.42.37:466][457]LogInit: FAudioDevice initialized.
+[2017.10.04-01.42.37:495][457]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.42.37:498][457]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.42.37
+[2017.10.04-01.42.37:498][457]LogWorld: Bringing up level for play took: 0.002326
+[2017.10.04-01.42.37:500][457]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.052
+[2017.10.04-01.42.53:491][361]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot2)
+[2017.10.04-01.42.57:755][833]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.42.58:072][867]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.43.11:989][339]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot2)
+[2017.10.04-01.43.30:419][421]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.43.31:021][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.43.31:075][473]LogSavePackage: Save=43.37ms
+[2017.10.04-01.43.31:075][473]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot70FB1C2544769F822C54629070921801.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.43.31:079][473]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.43.32:364][625]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.43.34:903][872]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.43.34:921][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.43.34:921][872]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:43:34 PM)
+[2017.10.04-01.43.34:921][872]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.43.34:929][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008161s)
+[2017.10.04-01.43.34:930][872]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.43.34:930][872]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.10.04-01.43.34:930][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.009010s)
+[2017.10.04-01.43.34:955][872]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.43.34:962][872]LogInit: FAudioDevice initialized.
+[2017.10.04-01.43.34:991][872]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.43.34:995][872]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.43.34
+[2017.10.04-01.43.34:995][872]LogWorld: Bringing up level for play took: 0.002527
+[2017.10.04-01.43.34:997][872]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.451
+[2017.10.04-01.43.56:478][428]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot2)
+[2017.10.04-01.43.58:772][659]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.44.08:471][712]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.44.08:489][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.44.08:489][712]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:44:08 PM)
+[2017.10.04-01.44.08:489][712]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.44.08:496][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006890s)
+[2017.10.04-01.44.08:497][712]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.44.08:497][712]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2017.10.04-01.44.08:497][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007745s)
+[2017.10.04-01.44.08:521][712]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.44.08:528][712]LogInit: FAudioDevice initialized.
+[2017.10.04-01.44.08:557][712]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.44.08:561][712]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.44.08
+[2017.10.04-01.44.08:561][712]LogWorld: Bringing up level for play took: 0.002504
+[2017.10.04-01.44.08:563][712]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.885
+[2017.10.04-01.44.28:707][109]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.44.29:279][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.44.29:312][158]LogSavePackage: Save=26.89ms
+[2017.10.04-01.44.29:312][158]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot554DE5F74ABC422476688FB64991D309.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.44.29:316][158]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.45.07:049][656]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.45.07:902][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.45.07:938][740]LogSavePackage: Save=30.66ms
+[2017.10.04-01.45.07:938][740]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot72F7DE914B5A8F89090FBAA721318E58.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.45.07:942][740]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.47.42:829][818]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.47.42:848][818]LogBlueprint:Error: [Compiler BP_Slingshot] Error This blueprint (self) is not a MaterialInstanceDynamic, therefore ' Target ' must have a connection.
+[2017.10.04-01.47.43:068][818]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MaterialInstanceDynamic, therefore ' Target ' must have a connection.
+[2017.10.04-01.47.43:081][818]LogBlueprint:Warning: [Compiler BP_Slingshot] Warning [1321.58] Compile of BP_Slingshot failed. 1 Fatal Issue(s) 0 Warning(s) [in 252 ms] (/Game/Blueprints/BP_Slingshot.BP_Slingshot)
+[2017.10.04-01.47.59:794][817]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.48.00:464][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.48.00:506][876]LogSavePackage: Save=36.26ms
+[2017.10.04-01.48.00:506][876]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot1AB27EDD4253C3519771798E2974205E.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.48.00:510][876]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.48.04:072][303]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.48.04:682][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.48.04:724][358]LogSavePackage: Save=35.97ms
+[2017.10.04-01.48.04:724][358]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot69B583E84431820FD96BB68083E2570C.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.48.04:725][358]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.48.23:776][641]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.48.24:444][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.48.24:487][702]LogSavePackage: Save=36.44ms
+[2017.10.04-01.48.24:487][702]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot8284FEA64DC83FA6181773B2CC3A4867.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.48.24:492][702]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.48.32:730][687]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.48.32:747][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.48.32:747][687]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:48:32 PM)
+[2017.10.04-01.48.32:747][687]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.48.32:755][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008094s)
+[2017.10.04-01.48.32:756][687]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.48.32:756][687]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2017.10.04-01.48.32:757][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.009175s)
+[2017.10.04-01.48.32:782][687]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.48.32:789][687]LogInit: FAudioDevice initialized.
+[2017.10.04-01.48.32:823][687]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.48.32:826][687]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.48.32
+[2017.10.04-01.48.32:827][687]LogWorld: Bringing up level for play took: 0.002452
+[2017.10.04-01.48.32:829][687]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.619
+[2017.10.04-01.48.51:053][856]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.48.51:070][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.48.51:070][856]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:48:51 PM)
+[2017.10.04-01.48.51:070][856]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.48.51:078][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007498s)
+[2017.10.04-01.48.51:078][856]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.48.51:078][856]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2017.10.04-01.48.51:079][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008297s)
+[2017.10.04-01.48.51:107][856]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.48.51:114][856]LogInit: FAudioDevice initialized.
+[2017.10.04-01.48.51:143][856]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.48.51:146][856]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.48.51
+[2017.10.04-01.48.51:146][856]LogWorld: Bringing up level for play took: 0.002308
+[2017.10.04-01.48.51:148][856]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.3
+[2017.10.04-01.49.02:136][154]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.49.02:153][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.49.02:154][154]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:49:02 PM)
+[2017.10.04-01.49.02:154][154]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.49.02:161][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007860s)
+[2017.10.04-01.49.02:162][154]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.49.02:162][154]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2017.10.04-01.49.02:162][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008712s)
+[2017.10.04-01.49.02:194][154]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.49.02:200][154]LogInit: FAudioDevice initialized.
+[2017.10.04-01.49.02:232][154]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.49.02:235][154]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.49.02
+[2017.10.04-01.49.02:235][154]LogWorld: Bringing up level for play took: 0.002455
+[2017.10.04-01.49.02:237][154]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.789
+[2017.10.04-01.49.05:028][472]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.49.05:045][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.49.05:045][472]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:49:05 PM)
+[2017.10.04-01.49.05:045][472]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.49.05:053][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007253s)
+[2017.10.04-01.49.05:053][472]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.49.05:053][472]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.10.04-01.49.05:054][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008318s)
+[2017.10.04-01.49.05:086][472]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.49.05:093][472]LogInit: FAudioDevice initialized.
+[2017.10.04-01.49.05:122][472]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.49.05:125][472]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.49.05
+[2017.10.04-01.49.05:125][472]LogWorld: Bringing up level for play took: 0.002277
+[2017.10.04-01.49.05:128][472]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.32
+[2017.10.04-01.49.37:940][391]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.49.38:602][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.49.38:651][453]LogSavePackage: Save=36.99ms
+[2017.10.04-01.49.38:651][453]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot8637C7B148681E95AB1F84B445E65274.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.49.38:655][453]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.49.39:857][596]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.49.39:873][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.49.39:874][596]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:49:39 PM)
+[2017.10.04-01.49.39:874][596]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.49.39:881][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007605s)
+[2017.10.04-01.49.39:882][596]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.49.39:882][596]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.10.04-01.49.39:882][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008481s)
+[2017.10.04-01.49.39:906][596]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.49.39:912][596]LogInit: FAudioDevice initialized.
+[2017.10.04-01.49.39:944][596]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.49.39:947][596]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.49.39
+[2017.10.04-01.49.39:948][596]LogWorld: Bringing up level for play took: 0.002269
+[2017.10.04-01.49.39:950][596]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.502
+[2017.10.04-01.49.48:736][634]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot)
+[2017.10.04-01.49.59:881][889]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot2)
+[2017.10.04-01.51.37:048][235]BlueprintLog: New page: Compile BP_Slingshot
+[2017.10.04-01.51.39:301][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Slingshot" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset" SILENT=true
+[2017.10.04-01.51.39:351][486]LogSavePackage: Save=42.67ms
+[2017.10.04-01.51.39:351][486]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Slingshot2DF4271D41E5B0CB7184F09265BE8064.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset'
+[2017.10.04-01.51.39:355][486]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Slingshot.uasset
+[2017.10.04-01.51.40:529][624]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.51.40:547][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.51.40:547][624]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:51:40 PM)
+[2017.10.04-01.51.40:547][624]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.51.40:554][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007635s)
+[2017.10.04-01.51.40:555][624]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.51.40:555][624]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2017.10.04-01.51.40:555][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008572s)
+[2017.10.04-01.51.40:580][624]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.51.40:587][624]LogInit: FAudioDevice initialized.
+[2017.10.04-01.51.40:615][624]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.51.40:618][624]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.51.40
+[2017.10.04-01.51.40:618][624]LogWorld: Bringing up level for play took: 0.002275
+[2017.10.04-01.51.40:621][624]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.827
+[2017.10.04-01.52.40:229][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.04-01.52.40:387][683]LogSavePackage: Save=129.97ms
+[2017.10.04-01.52.40:387][683]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel0AE4138E43918310A93D2790E4093708.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.10.04-01.52.40:390][683]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.10.04-01.52.40:441][683]LogFileHelpers: Saving map 'PinballLevel' took 0.278
+[2017.10.04-01.52.42:374][906]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.04-01.52.53:926][272]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper2)
+[2017.10.04-01.53.00:296][ 15]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2017.10.04-01.53.18:221][  4]Cmd: SELECT NONE
+[2017.10.04-01.53.23:328][607]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2017.10.04-01.53.43:892][840]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-01.53.43:909][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-01.53.43:909][840]PIE: New page: PIE session: PinballLevel (Oct 3, 2017, 5:53:43 PM)
+[2017.10.04-01.53.43:909][840]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-01.53.43:917][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007332s)
+[2017.10.04-01.53.43:917][840]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-01.53.43:918][840]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.10.04-01.53.43:918][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008239s)
+[2017.10.04-01.53.43:944][840]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-01.53.43:950][840]LogInit: FAudioDevice initialized.
+[2017.10.04-01.53.43:979][840]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-01.53.43:982][840]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.03-21.53.43
+[2017.10.04-01.53.43:982][840]LogWorld: Bringing up level for play took: 0.002317
+[2017.10.04-01.53.43:985][840]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.536
+[2017.10.04-01.54.11:010][ 62]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2017.10.04-01.54.19:184][865]Cmd: TRANSACTION UNDO
+[2017.10.04-01.54.19:184][865]LogEditorTransaction: Undo Move Actors
+[2017.10.04-01.54.19:192][865]LogGeometryMode:Warning: Unable to find 2 Vertex(s) in new BSP
+[2017.10.04-01.54.19:192][865]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.10.04-01.54.19:192][865]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.04-01.54.23:269][291]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2017.10.04-01.54.23:269][291]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.04-01.54.26:270][643]Cmd: SELECT NONE
+[2017.10.04-01.54.36:328][750]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2017.10.04-01.54.36:328][750]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.10.04-01.54.36:989][825]Cmd: SELECT NONE
+[2017.10.04-01.54.41:562][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.04-01.54.41:711][339]LogSavePackage: Save=125.66ms
+[2017.10.04-01.54.41:711][339]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel7A1CAC51470840054B3AC29BB492CB11.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.10.04-01.54.41:715][339]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.10.04-01.54.41:771][339]LogFileHelpers: Saving map 'PinballLevel' took 0.274
+[2017.10.04-01.55.11:603][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SlingbandMT" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset" SILENT=true
+[2017.10.04-01.55.11:627][985]LogSavePackage: Save=13.91ms
+[2017.10.04-01.55.11:627][985]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_SlingbandMTC0BE1E2E4D3259F9820350981A1EBECC.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset'
+[2017.10.04-01.55.11:630][985]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset
+[2017.10.04-01.55.13:627][222]Cmd: SELECT NONE
+[2017.10.04-01.56.59:308][481]LogEditorTransaction: Undo Scale Collision
+[2017.10.04-01.57.42:862][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SlingbandMT" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset" SILENT=true
+[2017.10.04-01.57.42:894][528]LogSavePackage: Save=21.65ms
+[2017.10.04-01.57.42:894][528]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_SlingbandMT49CCF3964668ADD8613C24A21D8D58CC.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset'
+[2017.10.04-01.57.42:900][528]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SlingbandMT.uasset
+[2017.10.04-01.58.11:303][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-01.58.11:388][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-01.58.11:463][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-01.58.11:782][480]Cmd: QUIT_EDITOR
+[2017.10.04-01.58.12:798][480]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.04-01.58.12:815][480]LogExit: Preparing to exit.
+[2017.10.04-01.58.14:026][480]LogDirectoryWatcher: A directory notification for 'D:/GameEngines/Udemy/Pinball/Content/' was aborted.
+[2017.10.04-01.58.14:133][480]LogExit: Editor shut down
+[2017.10.04-01.58.14:159][480]LogExit: Transaction tracking system shut down
+[2017.10.04-01.58.14:571][480]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.04-01.58.14:572][480]LogExit: Object subsystem successfully closed.
+[2017.10.04-01.58.14:602][480]LogD3D11RHI: Shutdown
+[2017.10.04-01.58.14:602][480]LogD3D11RHI: CleanupD3DDevice
+[2017.10.04-01.58.14:687][480]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (534)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (530)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.04-01.58.15:259][480]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.04-01.58.15:259][480]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.04-01.58.15:264][480]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.04-01.58.15:264][480]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.04-01.58.15:264][480]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.04-01.58.15:264][480]LogDirectoryWatcher: A directory notification for 'D:/GameEngines/Udemy/Pinball/Content/Collections/' was aborted.
+[2017.10.04-01.58.15:264][480]LogDirectoryWatcher: A directory notification for 'D:/GameEngines/Udemy/Pinball/Content/Developers/cdietsch/Collections/' was aborted.
+[2017.10.04-01.58.15:264][480]LogDirectoryWatcher: A directory notification for 'D:/GameEngines/Udemy/Pinball/Saved/Collections/' was aborted.
+[2017.10.04-01.58.15:264][480]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.04-01.58.15:264][480]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.04-01.58.15:264][480]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.04-01.58.15:276][480]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.04-01.58.15:276][480]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.04-01.58.15:276][480]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.04-01.58.15:276][480]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.04-01.58.15:276][480]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.04-01.58.15:276][480]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.04-01.58.15:285][480]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.04-01.58.15:285][480]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.04-01.58.15:285][480]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.04-01.58.15:293][480]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.04-01.58.15:302][480]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.04-01.58.15:312][480]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.04-01.58.15:323][480]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.04-01.58.15:323][480]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.04-01.58.15:323][480]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.04-01.58.15:323][480]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.04-01.58.15:323][480]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.04-01.58.15:323][480]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.04-01.58.15:343][480]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.04-01.58.15:344][480]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.04-01.58.15:356][480]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.04-01.58.15:356][480]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.04-01.58.15:356][480]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.04-01.58.15:363][480]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.04-01.58.15:363][480]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.04-01.58.15:363][480]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.04-01.58.16:038][480]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.04-01.58.16:038][480]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.04-01.58.16:038][480]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.04-01.58.16:038][480]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.04-01.58.16:042][480]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.04-01.58.16:042][480]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.04-01.58.16:042][480]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.04-01.58.16:048][480]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.04-01.58.16:063][480]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.04-01.58.16:074][480]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.04-01.58.16:074][480]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.04-01.58.16:084][480]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.04-01.58.16:085][480]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.04-01.58.16:095][480]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.04-01.58.16:104][480]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.04-01.58.16:104][480]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.04-01.58.16:110][480]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.04-01.58.16:168][480]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.04-01.58.16:178][480]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.04-01.58.16:189][480]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.04-01.58.16:190][480]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.04-01.58.16:190][480]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.04-01.58.16:190][480]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.04-01.58.16:190][480]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.04-01.58.16:212][480]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.04-01.58.16:212][480]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.04-01.58.16:212][480]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.04-01.58.16:220][480]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.04-01.58.16:221][480]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.04-01.58.16:221][480]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.04-01.58.16:222][480]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.04-01.58.16:222][480]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.04-01.58.16:234][480]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.04-01.58.16:234][480]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.04-01.58.16:234][480]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.04-01.58.16:234][480]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.04-01.58.16:234][480]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.04-01.58.16:234][480]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.04-01.58.16:261][480]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.04-01.58.16:262][480]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.04-01.58.16:262][480]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.04-01.58.16:262][480]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.04-01.58.16:262][480]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.04-01.58.16:262][480]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.04-01.58.16:262][480]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.04-01.58.16:262][480]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.04-01.58.16:267][480]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.04-01.58.16:486][480]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.04-01.58.16:487][480]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.04-01.58.16:487][480]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.04-01.58.16:487][480]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.04-01.58.16:495][480]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.04-01.58.16:506][480]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.04-01.58.16:506][480]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.04-01.58.16:506][480]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.04-01.58.16:506][480]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.04-01.58.16:506][480]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.04-01.58.16:515][480]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.04-01.58.16:515][480]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.04-01.58.16:515][480]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.04-01.58.16:529][480]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.04-01.58.16:529][480]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.04-01.58.16:538][480]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.04-01.58.16:538][480]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.04-01.58.16:538][480]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.04-01.58.16:538][480]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.04-01.58.16:538][480]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.04-01.58.16:538][480]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.04-01.58.16:538][480]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.04-01.58.16:551][480]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.04-01.58.16:552][480]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.04-01.58.16:552][480]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.04-01.58.16:552][480]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.04-01.58.16:552][480]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.04-01.58.16:561][480]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.04-01.58.16:569][480]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.04-01.58.16:581][480]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.04-01.58.16:581][480]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.04-01.58.16:581][480]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.04-01.58.16:581][480]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.04-01.58.16:581][480]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.04-01.58.16:592][480]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.04-01.58.16:597][480]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.04-01.58.16:598][480]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.04-01.58.16:610][480]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.04-01.58.16:615][480]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.04-01.58.16:626][480]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.04-01.58.16:631][480]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.04-01.58.16:631][480]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.04-01.58.16:631][480]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.04-01.58.16:631][480]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.04-01.58.16:642][480]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.04-01.58.16:743][480]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.04-01.58.16:854][480]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.04-01.58.16:869][480]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.04-01.58.16:869][480]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.04-01.58.16:869][480]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.04-01.58.16:879][480]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.04-01.58.16:879][480]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.04-01.58.16:880][480]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.04-01.58.16:880][480]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.04-01.58.16:886][480]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.04-01.58.16:886][480]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.04-01.58.16:901][480]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.04-01.58.16:901][480]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.04-01.58.16:912][480]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.04-01.58.16:912][480]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.04-01.58.16:912][480]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.04-01.58.16:922][480]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.04-01.58.16:938][480]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.04-01.58.16:938][480]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.04-01.58.16:954][480]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.04-01.58.16:954][480]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.04-01.58.16:965][480]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.04-01.58.16:965][480]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.04-01.58.16:965][480]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.04-01.58.16:966][480]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.04-01.58.16:970][480]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.04-01.58.16:970][480]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.04-01.58.16:970][480]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.04-01.58.16:990][480]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.04-01.58.16:990][480]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.04-01.58.16:992][480]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.04-01.58.16:992][480]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.04-01.58.16:992][480]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.04-01.58.16:992][480]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.04-01.58.16:992][480]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.04-01.58.16:992][480]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.04-01.58.17:098][480]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.04-01.58.17:098][480]LogDirectoryWatcher: A directory notification for '../../../../../GameEngines/Udemy/Pinball/Content/' was aborted.
+[2017.10.04-01.58.17:098][480]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.04-01.58.17:098][480]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.04-01.58.17:108][480]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.04-01.58.17:114][480]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.04-01.58.17:114][480]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.04-01.58.17:114][480]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.04-01.58.17:114][480]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.04-01.58.17:124][480]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.04-01.58.17:133][480]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.04-01.58.17:133][480]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.04-01.58.17:144][480]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.04-01.58.17:148][480]LogDerivedDataCache: Shutdown
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.04-01.58.17:148][480]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.04-01.58.17:149][480]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.04-01.58.17:149][480]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.04-01.58.17:171][480]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.04-01.58.17:171][480]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.04-01.58.17:171][480]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.04-01.58.17:171][480]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD61F1AD6-4F3F-39AA-5788-94BFF44F3666%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=4ad880a041e866c0eec1678949a6c598%7C4e33115bbcb14cb1bd60bf303c54f5d0%7Caaccc965-8604-4604-afc7-37c14aca71e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.04-01.58.17:182][480]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.04-01.58.17:183][480]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.04-01.58.17:183][480]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.04-01.58.17:184][480]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.04-01.58.17:184][480]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.04-01.58.17:184][480]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.04-01.58.17:184][480]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.04-01.58.17:184][480]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.04-01.58.17:184][480]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.04-01.58.17:187][480]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.04-01.58.17:189][480]LogExit: Exiting.
+[2017.10.04-01.58.17:204][480]Log file closed, 10/03/17 21:58:17
