@@ -1197,3 +1197,636 @@ LogInit: Object subsystem initialized
 [2017.10.04-21.01.50:741][652]LogWorld: Bringing up level for play took: 0.002206
 [2017.10.04-21.01.50:744][652]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.47
 [2017.10.04-21.01.50:751][652]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.03.38:083][364]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.10.04-21.03.38:111][364]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.10.04-21.03.57:784][711]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.04-21.03.58:756][823]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.04-21.03.59:553][916]Cmd: DELETE
+[2017.10.04-21.03.59:553][916]Cmd: ACTOR DELETE
+[2017.10.04-21.03.59:573][916]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.10.04-21.03.59:593][916]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.10.04-21.04.48:966][569]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.04.48:993][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.04.48:993][569]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:04:48 PM)
+[2017.10.04-21.04.48:993][569]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.04.49:000][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006584s)
+[2017.10.04-21.04.49:001][569]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.04.49:001][569]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2017.10.04-21.04.49:002][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008400s)
+[2017.10.04-21.04.49:029][569]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.04.49:036][569]LogInit: FAudioDevice initialized.
+[2017.10.04-21.04.49:074][569]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.04.49:076][569]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.04.49
+[2017.10.04-21.04.49:077][569]LogWorld: Bringing up level for play took: 0.002073
+[2017.10.04-21.04.49:079][569]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.134
+[2017.10.04-21.04.49:086][569]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.05.09:045][868]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.05.57:549][348]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.05.57:573][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.05.57:573][348]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:05:57 PM)
+[2017.10.04-21.05.57:573][348]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.05.57:580][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006480s)
+[2017.10.04-21.05.57:580][348]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.05.57:580][348]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2017.10.04-21.05.57:581][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007399s)
+[2017.10.04-21.05.57:666][348]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.05.57:673][348]LogInit: FAudioDevice initialized.
+[2017.10.04-21.05.57:704][348]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.05.57:707][348]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.05.57
+[2017.10.04-21.05.57:707][348]LogWorld: Bringing up level for play took: 0.002530
+[2017.10.04-21.05.57:710][348]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.497
+[2017.10.04-21.05.57:717][348]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.06.22:827][337]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.06.22:849][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.06.22:849][337]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:06:22 PM)
+[2017.10.04-21.06.22:849][337]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.06.22:856][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006190s)
+[2017.10.04-21.06.22:856][337]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.06.22:856][337]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.10.04-21.06.22:856][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007042s)
+[2017.10.04-21.06.22:908][337]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.06.22:915][337]LogInit: FAudioDevice initialized.
+[2017.10.04-21.06.22:942][337]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.06.22:945][337]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.06.22
+[2017.10.04-21.06.22:946][337]LogWorld: Bringing up level for play took: 0.002070
+[2017.10.04-21.06.22:948][337]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.266
+[2017.10.04-21.06.22:954][337]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.06.29:364][ 41]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.06.31:897][320]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.06.31:918][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.06.31:919][320]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:06:31 PM)
+[2017.10.04-21.06.31:919][320]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.06.31:926][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006888s)
+[2017.10.04-21.06.31:926][320]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.06.31:926][320]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.10.04-21.06.31:927][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007772s)
+[2017.10.04-21.06.31:992][320]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.06.31:999][320]LogInit: FAudioDevice initialized.
+[2017.10.04-21.06.32:031][320]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.06.32:033][320]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.06.32
+[2017.10.04-21.06.32:034][320]LogWorld: Bringing up level for play took: 0.002163
+[2017.10.04-21.06.32:036][320]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.823
+[2017.10.04-21.06.32:043][320]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.07.15:470][468]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper2)
+[2017.10.04-21.07.19:572][900]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2017.10.04-21.07.25:518][536]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.07.25:541][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.07.25:542][536]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:07:25 PM)
+[2017.10.04-21.07.25:542][536]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.07.25:548][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006276s)
+[2017.10.04-21.07.25:549][536]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.07.25:549][536]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2017.10.04-21.07.25:549][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007313s)
+[2017.10.04-21.07.25:613][536]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.07.25:619][536]LogInit: FAudioDevice initialized.
+[2017.10.04-21.07.25:653][536]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.07.25:656][536]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.07.25
+[2017.10.04-21.07.25:656][536]LogWorld: Bringing up level for play took: 0.002200
+[2017.10.04-21.07.25:659][536]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.446
+[2017.10.04-21.07.25:665][536]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.07.44:129][686]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2017.10.04-21.07.47:290][ 56]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.07.47:314][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.07.47:314][ 56]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:07:47 PM)
+[2017.10.04-21.07.47:314][ 56]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.07.47:320][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005780s)
+[2017.10.04-21.07.47:320][ 56]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.07.47:321][ 56]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.10.04-21.07.47:321][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.006856s)
+[2017.10.04-21.07.47:354][ 56]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.07.47:361][ 56]LogInit: FAudioDevice initialized.
+[2017.10.04-21.07.47:393][ 56]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.07.47:396][ 56]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.07.47
+[2017.10.04-21.07.47:396][ 56]LogWorld: Bringing up level for play took: 0.002265
+[2017.10.04-21.07.47:399][ 56]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.185
+[2017.10.04-21.07.47:405][ 56]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.08.51:858][773]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.08.51:882][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.08.51:882][773]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:08:51 PM)
+[2017.10.04-21.08.51:882][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.08.51:889][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006244s)
+[2017.10.04-21.08.51:889][773]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.08.51:889][773]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2017.10.04-21.08.51:889][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007110s)
+[2017.10.04-21.08.51:918][773]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.08.51:925][773]LogInit: FAudioDevice initialized.
+[2017.10.04-21.08.51:958][773]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.08.51:961][773]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.08.51
+[2017.10.04-21.08.51:962][773]LogWorld: Bringing up level for play took: 0.002225
+[2017.10.04-21.08.51:964][773]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.75
+[2017.10.04-21.08.51:970][773]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.09.27:118][868]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.09.34:110][602]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.09.34:132][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.09.34:132][602]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:09:34 PM)
+[2017.10.04-21.09.34:133][602]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.09.34:139][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006376s)
+[2017.10.04-21.09.34:139][602]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.09.34:140][602]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2017.10.04-21.09.34:140][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007552s)
+[2017.10.04-21.09.34:199][602]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.09.34:205][602]LogInit: FAudioDevice initialized.
+[2017.10.04-21.09.34:240][602]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.09.34:243][602]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.09.34
+[2017.10.04-21.09.34:243][602]LogWorld: Bringing up level for play took: 0.002075
+[2017.10.04-21.09.34:245][602]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 1.032
+[2017.10.04-21.09.34:252][602]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.09.43:348][672]LogEditorViewport: Clicking on Actor (LMB): BP_Rail_C (BP_Rail)
+[2017.10.04-21.09.50:909][420]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.09.50:932][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.09.50:932][420]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:09:50 PM)
+[2017.10.04-21.09.50:932][420]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.09.50:939][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006257s)
+[2017.10.04-21.09.50:939][420]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.09.50:940][420]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2017.10.04-21.09.50:940][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007585s)
+[2017.10.04-21.09.50:968][420]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.09.50:976][420]LogInit: FAudioDevice initialized.
+[2017.10.04-21.09.51:008][420]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.09.51:012][420]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.09.51
+[2017.10.04-21.09.51:012][420]LogWorld: Bringing up level for play took: 0.002281
+[2017.10.04-21.09.51:015][420]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.199
+[2017.10.04-21.09.51:021][420]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.10.14:332][164]LogEditorViewport: Clicking on Actor (LMB): BP_Rail_C (BP_Rail)
+[2017.10.04-21.10.20:984][811]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.10.21:008][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.10.21:008][811]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:10:21 PM)
+[2017.10.04-21.10.21:008][811]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.10.21:014][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005805s)
+[2017.10.04-21.10.21:014][811]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.10.21:015][811]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2017.10.04-21.10.21:015][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.006697s)
+[2017.10.04-21.10.21:043][811]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.10.21:049][811]LogInit: FAudioDevice initialized.
+[2017.10.04-21.10.21:085][811]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.10.21:089][811]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.10.21
+[2017.10.04-21.10.21:090][811]LogWorld: Bringing up level for play took: 0.002198
+[2017.10.04-21.10.21:092][811]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.121
+[2017.10.04-21.10.21:098][811]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.10.40:730][102]LogEditorViewport: Clicking on Actor (LMB): BP_Rail_C (BP_Rail)
+[2017.10.04-21.10.48:256][935]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.10.48:279][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.10.48:279][935]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:10:48 PM)
+[2017.10.04-21.10.48:279][935]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.10.48:285][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005750s)
+[2017.10.04-21.10.48:285][935]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.10.48:285][935]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2017.10.04-21.10.48:286][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.006569s)
+[2017.10.04-21.10.48:313][935]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.10.48:320][935]LogInit: FAudioDevice initialized.
+[2017.10.04-21.10.48:351][935]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.10.48:355][935]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.10.48
+[2017.10.04-21.10.48:356][935]LogWorld: Bringing up level for play took: 0.002417
+[2017.10.04-21.10.48:358][935]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.856
+[2017.10.04-21.10.48:364][935]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.10.54:424][653]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.10.54:448][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.10.54:448][653]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:10:54 PM)
+[2017.10.04-21.10.54:448][653]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.10.54:454][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006461s)
+[2017.10.04-21.10.54:455][653]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.10.54:455][653]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.10.04-21.10.54:455][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007330s)
+[2017.10.04-21.10.54:489][653]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.10.54:496][653]LogInit: FAudioDevice initialized.
+[2017.10.04-21.10.54:528][653]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.10.54:530][653]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.10.54
+[2017.10.04-21.10.54:530][653]LogWorld: Bringing up level for play took: 0.002119
+[2017.10.04-21.10.54:533][653]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.681
+[2017.10.04-21.10.54:540][653]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.11.01:143][436]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.11.01:167][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.11.01:167][436]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:11:01 PM)
+[2017.10.04-21.11.01:167][436]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.11.01:173][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006305s)
+[2017.10.04-21.11.01:174][436]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.11.01:174][436]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.10.04-21.11.01:174][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007256s)
+[2017.10.04-21.11.01:202][436]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.11.01:209][436]LogInit: FAudioDevice initialized.
+[2017.10.04-21.11.01:243][436]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.11.01:246][436]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.11.01
+[2017.10.04-21.11.01:246][436]LogWorld: Bringing up level for play took: 0.002434
+[2017.10.04-21.11.01:249][436]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.035
+[2017.10.04-21.11.01:255][436]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.11.35:885][502]Cmd: TRANSACTION UNDO
+[2017.10.04-21.11.35:885][502]LogEditorTransaction: Undo Move Actors
+[2017.10.04-21.11.42:875][273]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.11.42:898][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.11.42:898][273]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:11:42 PM)
+[2017.10.04-21.11.42:898][273]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.11.42:904][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006096s)
+[2017.10.04-21.11.42:904][273]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.11.42:904][273]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.10.04-21.11.42:905][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.006911s)
+[2017.10.04-21.11.42:932][273]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.11.42:938][273]LogInit: FAudioDevice initialized.
+[2017.10.04-21.11.42:970][273]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.11.42:973][273]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.11.42
+[2017.10.04-21.11.42:973][273]LogWorld: Bringing up level for play took: 0.002189
+[2017.10.04-21.11.42:976][273]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.238
+[2017.10.04-21.11.42:982][273]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.12.02:160][596]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_TableFrame.FBX)
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: Material, ItemCount : 3
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.10.04-21.12.02:167][596]LogFbx: ItemName: Video, ItemCount : 2
+[2017.10.04-21.12.02:171][596]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_TableFrame.FBX
+[2017.10.04-21.12.02:179][596]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-21.12.05:032][596]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_TableFrame.FBX
+[2017.10.04-21.12.05:038][596]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-21.12.05:041][596]LogStaticMesh: Building static mesh SM_TableFrame...
+[2017.10.04-21.12.05:046][596]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/SM_TableFrame.SM_TableFrame
+[2017.10.04-21.12.05:053][596]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.04-21.12.17:789][434]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameEngines\Udemy\PinballAssets\SM_TableFrame.FBX)
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: Material, ItemCount : 3
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.10.04-21.12.17:794][434]LogFbx: ItemName: Video, ItemCount : 2
+[2017.10.04-21.12.17:798][434]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_TableFrame.FBX
+[2017.10.04-21.12.17:805][434]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-21.12.28:707][434]LogFbx: Loading FBX Scene from D:\GameEngines\Udemy\PinballAssets\SM_TableFrame.FBX
+[2017.10.04-21.12.28:714][434]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.04-21.12.28:717][434]LogStaticMesh: Building static mesh SM_TableFrame...
+[2017.10.04-21.12.28:721][434]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/SM_TableFrame.SM_TableFrame
+[2017.10.04-21.12.28:723][434]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.04-21.12.31:776][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.04-21.12.31:910][789]LogSavePackage: Save=101.17ms
+[2017.10.04-21.12.31:910][789]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto8EAC8F9714DF183E19899798C471C59FB.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto8.umap'
+[2017.10.04-21.12.31:911][789]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto8.umap
+[2017.10.04-21.12.31:914][789]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.160
+[2017.10.04-21.12.31:914][789]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2017.10.04-21.12.31:916][789]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_TableFrame] ([1] browsable assets)...
+[2017.10.04-21.12.31:931][789]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_TableFrame.SM_TableFrame]
+[2017.10.04-21.12.31:931][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_TableFrame]
+[2017.10.04-21.12.31:931][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_TableFrame" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_TableFrame_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.10.04-21.12.31:960][789]LogSavePackage: Save=13.91ms
+[2017.10.04-21.12.31:960][789]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_TableFrame_Auto87149362E437AB4A41FD14593C9E57845.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_TableFrame_Auto8.uasset'
+[2017.10.04-21.12.31:961][789]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/SM_TableFrame_Auto8.uasset
+[2017.10.04-21.12.31:961][789]LogFileHelpers: Auto-saving content packages took 0.046
+[2017.10.04-21.12.34:280][987]LogActorFactory: Actor Factory created SM_TableFrame
+[2017.10.04-21.12.36:457][193]LogActorFactory: Actor Factory created SM_TableFrame
+[2017.10.04-21.12.51:192][889]Cmd: MODE GRID=1
+[2017.10.04-21.14.28:076][132]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.14.28:101][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.14.28:102][132]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:14:28 PM)
+[2017.10.04-21.14.28:102][132]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.14.28:108][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006742s)
+[2017.10.04-21.14.28:109][132]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.14.28:109][132]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2017.10.04-21.14.28:109][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007769s)
+[2017.10.04-21.14.28:137][132]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.14.28:144][132]LogInit: FAudioDevice initialized.
+[2017.10.04-21.14.28:176][132]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.14.28:180][132]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.14.28
+[2017.10.04-21.14.28:180][132]LogWorld: Bringing up level for play took: 0.002385
+[2017.10.04-21.14.28:183][132]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.969
+[2017.10.04-21.14.28:197][132]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.14.41:113][632]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.14.54:489][156]LogEditorViewport: Clicking on Actor (LMB): BP_ForceMovementZone_C (BP_ForceMovementZone)
+[2017.10.04-21.15.25:374][677]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.15.25:397][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.15.25:397][677]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:15:25 PM)
+[2017.10.04-21.15.25:397][677]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.15.25:404][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006496s)
+[2017.10.04-21.15.25:404][677]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.15.25:404][677]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2017.10.04-21.15.25:404][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007381s)
+[2017.10.04-21.15.25:433][677]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.15.25:440][677]LogInit: FAudioDevice initialized.
+[2017.10.04-21.15.25:473][677]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.15.25:476][677]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.15.25
+[2017.10.04-21.15.25:476][677]LogWorld: Bringing up level for play took: 0.002250
+[2017.10.04-21.15.25:479][677]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.265
+[2017.10.04-21.15.25:484][677]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.15.31:089][294]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.15.35:346][782]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.15.35:368][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.15.35:368][782]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:15:35 PM)
+[2017.10.04-21.15.35:368][782]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.15.35:375][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006683s)
+[2017.10.04-21.15.35:376][782]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.15.35:376][782]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2017.10.04-21.15.35:376][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007595s)
+[2017.10.04-21.15.35:433][782]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.15.35:440][782]LogInit: FAudioDevice initialized.
+[2017.10.04-21.15.35:474][782]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.15.35:477][782]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.15.35
+[2017.10.04-21.15.35:477][782]LogWorld: Bringing up level for play took: 0.002444
+[2017.10.04-21.15.35:480][782]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.266
+[2017.10.04-21.15.35:486][782]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.15.55:462][111]MapCheck: New page: Map Check
+[2017.10.04-21.15.55:486][111]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.04-21.15.55:488][111]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.04-21.15.55:669][111]LightingResults: New page: Lighting Build - Oct 4, 2017, 1:15:55 PM
+[2017.10.04-21.15.55:829][111]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.04-21.15.55:975][111]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.04-21.15.55:993][111]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.04-21.15.57:020][111]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.04-21.15.57:020][111]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7640
+[2017.10.04-21.16.00:501][111]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.04-21.16.00:501][111]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.04-21.16.00:501][111]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.04-21.16.00:501][111]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.04-21.16.00:501][111]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.04-21.16.00:501][111]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.04-21.16.00:681][111]LogEditorBuildUtils: Build time 0:05
+[2017.10.04-21.16.03:309][232]Job is a success!
+[2017.10.04-21.16.03:621][233]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.04-21.16.03:621][233]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.04-21.16.03:621][233]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.10.04-21.16.03:621][233]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.10.04-21.16.03:643][233]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2017.10.04-21.16.03:643][233]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 128X512)
+[2017.10.04-21.16.03:665][233]Lightmass on CDIETSCHDESKTOP: 1.46 sec total, 110 ms importing, 19 ms setup, 207 ms photons, 1.09 sec processing, 0 ms extra exporting [31/31 mappings]. Threads: 4.34 sec total, 1.89 sec processing.
+[2017.10.04-21.16.03:696][233]LogStaticLightingSystem: Illumination: 7.99 sec (211 ms encoding lightmaps, 15 ms encoding shadowmaps)
+[2017.10.04-21.16.03:696][233]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2017.10.04-21.16.03:696][233]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 2 textures
+[2017.10.04-21.16.04:504][233]DumpUnbuiltLightIteractions
+[2017.10.04-21.16.04:504][233]Lights with unbuilt interactions: 0
+[2017.10.04-21.16.04:504][233]
+[2017.10.04-21.16.04:504][233]Primitives with unbuilt interactions: 0
+[2017.10.04-21.16.04:517][234]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.04-21.16.04:517][234]MapCheck: New page: PinballLevel - Oct 4, 2017, 1:16:04 PM
+[2017.10.04-21.16.04:639][234]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.369ms to complete.
+[2017.10.04-21.16.05:265][308]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.16.05:289][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.16.05:289][308]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:16:05 PM)
+[2017.10.04-21.16.05:289][308]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.16.05:296][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006943s)
+[2017.10.04-21.16.05:297][308]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.16.05:297][308]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2017.10.04-21.16.05:297][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007887s)
+[2017.10.04-21.16.05:351][308]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.16.05:357][308]LogInit: FAudioDevice initialized.
+[2017.10.04-21.16.05:390][308]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.16.05:393][308]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.16.05
+[2017.10.04-21.16.05:393][308]LogWorld: Bringing up level for play took: 0.002189
+[2017.10.04-21.16.05:395][308]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.182
+[2017.10.04-21.16.05:404][308]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.16.36:077][819]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.16.36:100][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.16.36:100][819]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:16:36 PM)
+[2017.10.04-21.16.36:100][819]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.16.36:106][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006447s)
+[2017.10.04-21.16.36:107][819]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.16.36:107][819]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.10.04-21.16.36:107][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007327s)
+[2017.10.04-21.16.36:134][819]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.16.36:141][819]LogInit: FAudioDevice initialized.
+[2017.10.04-21.16.36:174][819]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.16.36:177][819]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.16.36
+[2017.10.04-21.16.36:178][819]LogWorld: Bringing up level for play took: 0.002214
+[2017.10.04-21.16.36:180][819]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.967
+[2017.10.04-21.16.36:188][819]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.16.48:186][215]LogEditorViewport: Clicking on Actor (LMB): BP_Slingshot_C (BP_Slingshot2)
+[2017.10.04-21.16.57:845][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MI_SimplePlastic_Yellow" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset" SILENT=true
+[2017.10.04-21.16.57:884][239]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_SimplePlastic_Yellow, compiling. 
+[2017.10.04-21.16.58:926][239]TextureStreamingBuild:Display: Compiling optional shaders took 1.050 seconds.
+[2017.10.04-21.16.58:992][239]LogSavePackage: Save=30.08ms
+[2017.10.04-21.16.58:992][239]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/MI_SimplePlastic_Yellow699AADAA478BCE4F698D8DB97FC5CBB9.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset'
+[2017.10.04-21.16.59:011][239]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/MI_SimplePlastic_Yellow.uasset
+[2017.10.04-21.22.16:809][ 39]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.22.16:839][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.22.16:839][ 39]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:22:16 PM)
+[2017.10.04-21.22.16:839][ 39]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.22.16:847][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007610s)
+[2017.10.04-21.22.16:847][ 39]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.22.16:848][ 39]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.10.04-21.22.16:848][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008573s)
+[2017.10.04-21.22.16:879][ 39]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.22.16:887][ 39]LogInit: FAudioDevice initialized.
+[2017.10.04-21.22.16:916][ 39]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.22.16:919][ 39]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.22.16
+[2017.10.04-21.22.16:920][ 39]LogWorld: Bringing up level for play took: 0.002321
+[2017.10.04-21.22.16:922][ 39]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.291
+[2017.10.04-21.22.16:935][ 39]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.22.24:973][953]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.22.30:003][476]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.22.30:025][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.22.30:025][476]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:22:30 PM)
+[2017.10.04-21.22.30:025][476]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.22.30:032][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006883s)
+[2017.10.04-21.22.30:033][476]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.22.30:033][476]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.10.04-21.22.30:033][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007739s)
+[2017.10.04-21.22.30:090][476]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.22.30:097][476]LogInit: FAudioDevice initialized.
+[2017.10.04-21.22.30:125][476]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.22.30:128][476]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.22.30
+[2017.10.04-21.22.30:128][476]LogWorld: Bringing up level for play took: 0.002127
+[2017.10.04-21.22.30:130][476]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.917
+[2017.10.04-21.22.30:145][476]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.22.36:631][234]Cmd: SELECT NONE
+[2017.10.04-21.22.38:300][424]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.22.40:210][593]LogEditorViewport: Clicking Background
+[2017.10.04-21.22.40:900][671]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.23.01:142][982]LogEditorViewport: Clicking Background
+[2017.10.04-21.23.01:945][ 73]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.23.10:464][961]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.23.10:487][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.23.10:488][961]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:23:10 PM)
+[2017.10.04-21.23.10:488][961]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.23.10:494][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006527s)
+[2017.10.04-21.23.10:495][961]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.23.10:495][961]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.10.04-21.23.10:495][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007425s)
+[2017.10.04-21.23.10:550][961]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.23.10:556][961]LogInit: FAudioDevice initialized.
+[2017.10.04-21.23.10:586][961]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.23.10:589][961]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.23.10
+[2017.10.04-21.23.10:589][961]LogWorld: Bringing up level for play took: 0.002119
+[2017.10.04-21.23.10:592][961]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.622
+[2017.10.04-21.23.10:607][961]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.23.14:437][400]Cmd: SELECT NONE
+[2017.10.04-21.23.16:051][579]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.23.21:286][177]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.23.21:309][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.23.21:309][177]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:23:21 PM)
+[2017.10.04-21.23.21:309][177]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.23.21:315][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006505s)
+[2017.10.04-21.23.21:316][177]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.23.21:316][177]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.10.04-21.23.21:316][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007350s)
+[2017.10.04-21.23.21:413][177]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.23.21:420][177]LogInit: FAudioDevice initialized.
+[2017.10.04-21.23.21:455][177]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.23.21:458][177]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.23.21
+[2017.10.04-21.23.21:459][177]LogWorld: Bringing up level for play took: 0.002404
+[2017.10.04-21.23.21:461][177]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.248
+[2017.10.04-21.23.21:479][177]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.23.28:541][933]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.23.30:731][189]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.23.30:754][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.23.30:754][189]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:23:30 PM)
+[2017.10.04-21.23.30:754][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.23.30:761][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006706s)
+[2017.10.04-21.23.30:761][189]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.23.30:761][189]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2017.10.04-21.23.30:762][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007741s)
+[2017.10.04-21.23.30:814][189]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.23.30:820][189]LogInit: FAudioDevice initialized.
+[2017.10.04-21.23.30:860][189]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.23.30:863][189]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.23.30
+[2017.10.04-21.23.30:863][189]LogWorld: Bringing up level for play took: 0.002196
+[2017.10.04-21.23.30:866][189]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.348
+[2017.10.04-21.23.30:881][189]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.23.34:049][548]Cmd: SELECT NONE
+[2017.10.04-21.23.35:427][698]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.04-21.23.40:691][285]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-21.23.40:714][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-21.23.40:714][285]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 1:23:40 PM)
+[2017.10.04-21.23.40:714][285]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-21.23.40:721][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006968s)
+[2017.10.04-21.23.40:722][285]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-21.23.40:722][285]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2017.10.04-21.23.40:722][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.007984s)
+[2017.10.04-21.23.40:774][285]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-21.23.40:781][285]LogInit: FAudioDevice initialized.
+[2017.10.04-21.23.40:816][285]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-21.23.40:819][285]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-17.23.40
+[2017.10.04-21.23.40:819][285]LogWorld: Bringing up level for play took: 0.002433
+[2017.10.04-21.23.40:822][285]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.391
+[2017.10.04-21.23.40:834][285]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-21.24.27:095][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.04-21.24.27:211][804]LogSavePackage: Save=99.71ms
+[2017.10.04-21.24.27:211][804]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto9C1FA91E442DFD39F3D1F48B8F42DEEB1.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto9.umap'
+[2017.10.04-21.24.27:214][804]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto9.umap
+[2017.10.04-21.24.27:216][804]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.145
+[2017.10.04-21.24.27:216][804]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2017.10.04-21.24.27:218][804]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PinballLevel_BuiltData] ([1] browsable assets)...
+[2017.10.04-21.24.27:218][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/PinballLevel_BuiltData]
+[2017.10.04-21.24.27:218][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel_BuiltData" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_BuiltData_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.10.04-21.24.27:264][804]LogSavePackage: Save=28.21ms
+[2017.10.04-21.24.27:264][804]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_BuiltData_Auto9004F5A2A47F6A21FC67C368BE9DCAD3B.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_BuiltData_Auto9.uasset'
+[2017.10.04-21.24.27:265][804]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_BuiltData_Auto9.uasset
+[2017.10.04-21.24.27:266][804]LogFileHelpers: Auto-saving content packages took 0.049
+[2017.10.04-21.24.49:796][608]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\GameEngines\Udemy\PinballAssets\Textures\T_Fibers.tga)
+[2017.10.04-21.24.49:869][608]LogTexture:Display: Building textures: T_Fibers (AutoDXT, 1024X1024)
+[2017.10.04-21.24.54:549][819]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.04-21.25.00:749][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-21.25.01:037][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-21.25.01:300][564]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-21.25.01:859][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-21.25.26:817][135]LogContentBrowser:Verbose: The majority of assets in the view are of type: StaticMesh
+[2017.10.04-21.25.43:527][915]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.25.43:650][915]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.25.43:677][915]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.25.49:228][494]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.25.49:239][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-21.26.05:514][435]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.05:530][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-21.26.13:822][423]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.13:836][423]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-21.26.23:166][502]LogMaterial:Warning: Material /Game/Assets/M_TableTop.M_TableTop needed to have new flag set bUsedWithStaticLighting !
+[2017.10.04-21.26.23:166][502]LogMaterial:Warning: Material /Engine/Transient.M_TableTop needed to have new flag set bUsedWithStaticLighting !
+[2017.10.04-21.26.23:169][502]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.23:184][502]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.26:368][869]LogMaterialEditor: Applying material M_TableTop
+[2017.10.04-21.26.27:033][869]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.27:073][869]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.27:104][869]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.27:173][869]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableTop, compiling. 
+[2017.10.04-21.26.28:077][869]TextureStreamingBuild:Display: Compiling optional shaders took 0.910 seconds.
+[2017.10.04-21.26.36:356][791]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.36:368][791]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.04-21.26.45:770][863]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.26.45:788][863]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.04-21.26.50:875][459]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.02:060][791]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.02:074][791]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-21.27.06:311][291]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.06:328][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.04-21.27.11:249][874]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.27:597][826]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.32:540][410]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.32:557][410]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-21.27.36:911][924]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.36:927][924]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.04-21.27.44:947][878]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.50:974][594]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.27.55:160][ 88]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.04:935][255]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.12:505][155]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.12:524][155]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.20:208][ 67]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.28:934][109]LogMaterialEditor: Applying material M_TableTop
+[2017.10.04-21.28.29:513][109]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.29:553][109]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.29:583][109]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.29:622][109]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableTop, compiling. 
+[2017.10.04-21.28.30:557][109]TextureStreamingBuild:Display: Compiling optional shaders took 0.941 seconds.
+[2017.10.04-21.28.31:131][172]LogMaterialEditor: Saving and Compiling material M_TableTop
+[2017.10.04-21.28.32:668][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_TableTop" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_TableTop.uasset" SILENT=true
+[2017.10.04-21.28.32:688][172]LogSavePackage: Save=17.75ms
+[2017.10.04-21.28.32:688][172]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/M_TableTopD777377A485F2483094F789B7F44E486.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_TableTop.uasset'
+[2017.10.04-21.28.32:692][172]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_TableTop.uasset
+[2017.10.04-21.28.48:351][979]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.28.48:391][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.04-21.28.48:395][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.04-21.29.02:646][679]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.29.02:686][679]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.04-21.29.11:966][777]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.29.12:001][777]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.29.12:048][778]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.10.04-21.29.19:044][610]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.29.19:064][610]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.04-21.29.27:627][629]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.29.32:153][163]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.29.32:170][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.04-21.29.41:370][259]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.29.41:384][259]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.04-21.29.47:860][ 28]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.13:577][106]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.16:277][424]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.21:987][103]LogMaterialEditor: Applying material M_TableTop
+[2017.10.04-21.30.22:571][103]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.22:610][103]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.22:641][103]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.22:681][103]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableTop, compiling. 
+[2017.10.04-21.30.23:696][103]TextureStreamingBuild:Display: Compiling optional shaders took 1.020 seconds.
+[2017.10.04-21.30.48:463][  0]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.55:878][881]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.30.55:897][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.04-21.31.08:243][354]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.31.11:504][739]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.31.17:734][479]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.31.20:251][776]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.31.23:539][165]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.32.15:832][430]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.32.38:395][130]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.32.42:534][620]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.32.52:090][760]LogMaterialEditor: Saving and Compiling material M_TableTop
+[2017.10.04-21.32.52:676][760]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.32.52:715][760]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.32.52:745][760]LogMaterial: Missing cached shader map for material M_TableTop, compiling. 
+[2017.10.04-21.32.52:784][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableTop, compiling. 
+[2017.10.04-21.32.53:710][760]TextureStreamingBuild:Display: Compiling optional shaders took 0.932 seconds.
+[2017.10.04-21.32.55:612][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_TableTop" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_TableTop.uasset" SILENT=true
+[2017.10.04-21.32.55:644][760]LogSavePackage: Save=19.34ms
+[2017.10.04-21.32.55:644][760]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/M_TableTop88587FE1448C276B9E3244B193EFB151.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_TableTop.uasset'
+[2017.10.04-21.32.55:648][760]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/M_TableTop.uasset
+[2017.10.04-21.34.14:961][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableFrame)
+[2017.10.04-21.34.17:205][949]Cmd: SELECT NONE
+[2017.10.04-21.34.50:630][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.04-21.34.50:775][951]LogSavePackage: Save=99.01ms
+[2017.10.04-21.34.50:775][951]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto0110DC47C4C94F77C24515D8693B0951B.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto0.umap'
+[2017.10.04-21.34.50:777][951]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto0.umap
+[2017.10.04-21.34.50:782][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.167
+[2017.10.04-21.34.50:782][951]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
+[2017.10.04-21.34.50:784][951]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/T_Fibers] ([1] browsable assets)...
+[2017.10.04-21.34.50:792][951]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/T_Fibers.T_Fibers]
+[2017.10.04-21.34.50:792][951]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/T_Fibers]
+[2017.10.04-21.34.50:792][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/T_Fibers" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/T_Fibers_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.10.04-21.34.50:808][951]LogSavePackage: Save=13.44ms
+[2017.10.04-21.34.50:808][951]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/T_Fibers_Auto03169FD494399BF6D61BAEFB2A8B526F0.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/T_Fibers_Auto0.uasset'
+[2017.10.04-21.34.50:809][951]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/T_Fibers_Auto0.uasset
+[2017.10.04-21.34.50:809][951]LogFileHelpers: Auto-saving content packages took 0.026
