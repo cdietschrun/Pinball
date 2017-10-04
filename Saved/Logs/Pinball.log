@@ -966,3 +966,133 @@ LogInit: Object subsystem initialized
 [2017.10.04-19.50.20:381][923]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/SM_SpinnerTileDDC7EFAF44A6929F8D8F89889F58C2A1.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SpinnerTile.uasset'
 [2017.10.04-19.50.20:385][923]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/SM_SpinnerTile.uasset
 [2017.10.04-19.50.26:185][567]Cmd: SELECT NONE
+[2017.10.04-19.56.09:281][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.04-19.56.09:400][ 58]LogSavePackage: Save=104.02ms
+[2017.10.04-19.56.09:400][ 58]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto5640D27524027404076583EB2C4FE6D80.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto5.umap'
+[2017.10.04-19.56.09:403][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto5.umap
+[2017.10.04-19.56.09:405][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.148
+[2017.10.04-19.56.09:405][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2017.10.04-20.28.47:732][304]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_29:PersistentLevel.BP_ForceMovementZone_C_0.Box) Not currently registered. Aborting.
+[2017.10.04-20.28.50:124][590]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_29:PersistentLevel.BP_ForceMovementZone_C_0.Box) Not currently registered. Aborting.
+[2017.10.04-20.28.58:902][642]BlueprintLog: New page: Compile BP_ForceMovementZone
+[2017.10.04-20.29.00:447][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ForceMovementZone" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset" SILENT=true
+[2017.10.04-20.29.00:462][800]LogSavePackage: Save=12.51ms
+[2017.10.04-20.29.00:462][800]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_ForceMovementZone3AE540394D999257F1D5058A2A9ED612.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset'
+[2017.10.04-20.29.00:466][800]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset
+[2017.10.04-20.29.16:104][670]BlueprintLog: New page: Compile BP_ForceMovementZone
+[2017.10.04-20.29.16:924][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ForceMovementZone" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset" SILENT=true
+[2017.10.04-20.29.16:951][743]LogSavePackage: Save=12.69ms
+[2017.10.04-20.29.16:951][743]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_ForceMovementZone246ACC5F4505938A6E36749B3FF3ADC8.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset'
+[2017.10.04-20.29.16:954][743]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset
+[2017.10.04-20.29.58:025][639]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.04-20.33.26:398][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.019
+[2017.10.04-20.33.26:400][971]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_ForceMovementZone] ([1] browsable assets)...
+[2017.10.04-20.33.26:400][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ForceMovementZone]
+[2017.10.04-20.33.26:430][971]LogSavePackage: Save=23.25ms
+[2017.10.04-20.33.26:430][971]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_ForceMovementZone_Auto66762999040C156738A8472BAB264B438.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_ForceMovementZone_Auto6.uasset'
+[2017.10.04-20.33.26:432][971]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Blueprints/BP_ForceMovementZone_Auto6.uasset
+[2017.10.04-20.33.26:432][971]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.10.04-20.40.31:483][245]BlueprintLog: New page: Compile BP_ForceMovementZone
+[2017.10.04-20.40.32:246][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ForceMovementZone" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset" SILENT=true
+[2017.10.04-20.40.32:290][311]LogSavePackage: Save=32.51ms
+[2017.10.04-20.40.32:290][311]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_ForceMovementZone14F295AA4BAE209CEEA999AF9ED4042A.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset'
+[2017.10.04-20.40.32:295][311]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset
+[2017.10.04-20.41.33:392][549]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.04-20.41.41:252][403]LogEditorViewport: Clicking on Actor (LMB): BP_ForceMovementZone_C (BP_ForceMovementZone)
+[2017.10.04-20.42.10:730][808]BlueprintLog: New page: Compile BP_ForceMovementZone
+[2017.10.04-20.42.11:379][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ForceMovementZone" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset" SILENT=true
+[2017.10.04-20.42.11:420][869]LogSavePackage: Save=33.75ms
+[2017.10.04-20.42.11:420][869]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_ForceMovementZoneA75660BF4EFAC2E611A0589D332A1D8C.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset'
+[2017.10.04-20.42.11:424][869]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset
+[2017.10.04-20.42.18:936][767]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-20.42.18:960][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-20.42.18:961][767]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 12:42:18 PM)
+[2017.10.04-20.42.18:961][767]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-20.42.18:970][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009209s)
+[2017.10.04-20.42.18:972][767]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-20.42.18:972][767]LogPlayLevel: PIE: World Init took: (0.001746s)
+[2017.10.04-20.42.18:972][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.011251s)
+[2017.10.04-20.42.18:999][767]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-20.42.19:007][767]LogInit: FAudioDevice initialized.
+[2017.10.04-20.42.19:039][767]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-20.42.19:042][767]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-16.42.19
+[2017.10.04-20.42.19:043][767]LogWorld: Bringing up level for play took: 0.002885
+[2017.10.04-20.42.19:046][767]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.168
+[2017.10.04-20.42.19:076][767]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-20.42.27:410][741]BlueprintLog: New page: Compile BP_ForceMovementZone
+[2017.10.04-20.42.27:963][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ForceMovementZone" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset" SILENT=true
+[2017.10.04-20.42.28:002][791]LogSavePackage: Save=33.08ms
+[2017.10.04-20.42.28:003][791]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_ForceMovementZoneC6B8AE404F94F2263DE03D910AF1C52B.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset'
+[2017.10.04-20.42.28:006][791]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset
+[2017.10.04-20.42.29:243][936]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-20.42.29:263][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-20.42.29:263][936]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 12:42:29 PM)
+[2017.10.04-20.42.29:263][936]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-20.42.29:271][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007603s)
+[2017.10.04-20.42.29:271][936]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-20.42.29:271][936]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2017.10.04-20.42.29:271][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008525s)
+[2017.10.04-20.42.29:297][936]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-20.42.29:304][936]LogInit: FAudioDevice initialized.
+[2017.10.04-20.42.29:337][936]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-20.42.29:341][936]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-16.42.29
+[2017.10.04-20.42.29:341][936]LogWorld: Bringing up level for play took: 0.002323
+[2017.10.04-20.42.29:343][936]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.13
+[2017.10.04-20.42.29:351][936]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-20.43.01:248][726]BlueprintLog: New page: Compile BP_ForceMovementZone
+[2017.10.04-20.43.12:549][ 47]BlueprintLog: New page: Compile BP_ForceMovementZone
+[2017.10.04-20.43.13:079][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ForceMovementZone" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset" SILENT=true
+[2017.10.04-20.43.13:120][ 93]LogSavePackage: Save=34.19ms
+[2017.10.04-20.43.13:120][ 93]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_ForceMovementZoneE152FFB747A69836100BBA8E294E45ED.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset'
+[2017.10.04-20.43.13:124][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_ForceMovementZone.uasset
+[2017.10.04-20.43.15:695][397]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-20.43.15:714][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-20.43.15:714][397]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 12:43:15 PM)
+[2017.10.04-20.43.15:714][397]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-20.43.15:722][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007567s)
+[2017.10.04-20.43.15:722][397]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-20.43.15:722][397]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.10.04-20.43.15:723][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008603s)
+[2017.10.04-20.43.15:748][397]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-20.43.15:755][397]LogInit: FAudioDevice initialized.
+[2017.10.04-20.43.15:786][397]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-20.43.15:789][397]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-16.43.15
+[2017.10.04-20.43.15:789][397]LogWorld: Bringing up level for play took: 0.002137
+[2017.10.04-20.43.15:792][397]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.579
+[2017.10.04-20.43.15:800][397]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-20.43.33:107][403]LogEditorViewport: Clicking on Actor (LMB): BP_ForceMovementZone_C (BP_ForceMovementZone)
+[2017.10.04-20.44.11:550][741]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-20.44.11:569][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-20.44.11:569][741]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 12:44:11 PM)
+[2017.10.04-20.44.11:569][741]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-20.44.11:577][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007936s)
+[2017.10.04-20.44.11:578][741]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-20.44.11:578][741]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2017.10.04-20.44.11:579][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.009057s)
+[2017.10.04-20.44.11:633][741]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-20.44.11:640][741]LogInit: FAudioDevice initialized.
+[2017.10.04-20.44.11:672][741]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-20.44.11:675][741]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-16.44.11
+[2017.10.04-20.44.11:697][741]LogWorld: Bringing up level for play took: 0.024484
+[2017.10.04-20.44.11:700][741]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel 0.487
+[2017.10.04-20.44.11:708][741]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-20.44.16:831][342]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-20.44.16:850][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-20.44.16:850][342]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 12:44:16 PM)
+[2017.10.04-20.44.16:850][342]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-20.44.16:858][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007793s)
+[2017.10.04-20.44.16:859][342]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-20.44.16:859][342]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.10.04-20.44.16:859][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.008752s)
+[2017.10.04-20.44.16:887][342]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-20.44.16:893][342]LogInit: FAudioDevice initialized.
+[2017.10.04-20.44.16:924][342]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-20.44.16:927][342]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-16.44.16
+[2017.10.04-20.44.16:928][342]LogWorld: Bringing up level for play took: 0.002220
+[2017.10.04-20.44.16:930][342]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.283
+[2017.10.04-20.44.16:938][342]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.10.04-20.44.26:301][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.04-20.44.26:437][398]LogSavePackage: Save=106.13ms
+[2017.10.04-20.44.26:437][398]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel80309FFA47B7AFC91A383CB2F2B00D7F.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.10.04-20.44.26:441][398]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.10.04-20.44.26:496][398]LogFileHelpers: Saving map 'PinballLevel' took 0.268
