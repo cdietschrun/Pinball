@@ -696,3 +696,59 @@ LogInit: Object subsystem initialized
 [2017.10.04-16.15.19:794][127]LogSavePackage: Save=6.41ms
 [2017.10.04-16.15.19:794][127]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/Bell_Impact01_Cue06F97CC74C5AB5F3C3482F8EEA61A3AF.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Bell_Impact01_Cue.uasset'
 [2017.10.04-16.15.19:797][127]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Bell_Impact01_Cue.uasset
+[2017.10.04-17.43.16:270][502]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.10.04-17.43.25:196][375]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.10.04-17.43.42:116][ 74]Cmd: TRANSACTION UNDO
+[2017.10.04-17.43.42:116][ 74]LogEditorTransaction: Undo Move Actors
+[2017.10.04-17.43.53:463][237]LogEditorViewport: Clicking on Actor (LMB): BP_DropTargetSet_C (BP_DropTargetSet)
+[2017.10.04-17.44.03:131][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.04-17.44.03:266][174]LogSavePackage: Save=103.75ms
+[2017.10.04-17.44.03:266][174]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevelB55516C9413B6706387B59BF76C75659.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.10.04-17.44.03:271][174]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.10.04-17.44.03:331][174]LogFileHelpers: Saving map 'PinballLevel' took 0.273
+[2017.10.04-19.17.12:615][186]LogMetaData: Removing '/Game/Assets/Sounds/Pinball_Rolling_Cue.Pinball_Rolling_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Assets/Sounds/Pinball_Rolling01_Cue.PackageMetaData'
+[2017.10.04-19.17.12:643][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/Pinball_Rolling_Cue" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset" SILENT=true
+[2017.10.04-19.17.12:655][186]LogSavePackage: Save=8.58ms
+[2017.10.04-19.17.12:655][186]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/Pinball_Rolling_Cue80571458497EE52DD7516B918C68DB1B.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset'
+[2017.10.04-19.17.12:658][186]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset
+[2017.10.04-19.18.07:507][713]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.019
+[2017.10.04-19.18.07:509][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Pinball_Rolling_Cue] ([1] browsable assets)...
+[2017.10.04-19.18.07:509][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Pinball_Rolling_Cue]
+[2017.10.04-19.18.07:532][713]LogSavePackage: Save=14.22ms
+[2017.10.04-19.18.07:532][713]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/Pinball_Rolling_Cue_Auto391D990054D3096F0BC50C38029CAD3CE.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Rolling_Cue_Auto3.uasset'
+[2017.10.04-19.18.07:535][713]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/Assets/Sounds/Pinball_Rolling_Cue_Auto3.uasset
+[2017.10.04-19.18.07:535][713]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.10.04-19.18.27:416][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/Pinball_Rolling_Cue" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset" SILENT=true
+[2017.10.04-19.18.27:431][479]LogSavePackage: Save=6.18ms
+[2017.10.04-19.18.27:431][479]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/Pinball_Rolling_Cue718442D442D12B193DED4BB475028FFE.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset'
+[2017.10.04-19.18.27:435][479]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset
+[2017.10.04-19.21.37:143][385]LogEditorTransaction: Undo Add Node
+[2017.10.04-19.23.07:801][224]BlueprintLog: New page: Compile BP_Ball
+[2017.10.04-19.23.08:707][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2017.10.04-19.23.08:779][281]LogSavePackage: Save=56.84ms
+[2017.10.04-19.23.08:779][281]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/BP_Ball843676064E55A36275B2D9AB048523E5.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Ball.uasset'
+[2017.10.04-19.23.08:784][281]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/BP_Ball.uasset
+[2017.10.04-19.23.39:085][903]BlueprintLog: New page: Compile PinballGameMode
+[2017.10.04-19.23.39:762][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.10.04-19.23.39:879][953]LogSavePackage: Save=105.31ms
+[2017.10.04-19.23.39:879][953]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballGameMode146A7E9E4A222BFDA4103FAA5FDB95B6.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2017.10.04-19.23.39:882][953]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset
+[2017.10.04-19.23.41:105][ 91]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.04-19.23.41:126][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-19.23.41:126][ 91]PIE: New page: PIE session: PinballLevel (Oct 4, 2017, 11:23:41 AM)
+[2017.10.04-19.23.41:126][ 91]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinballLevel
+[2017.10.04-19.23.41:138][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011708s)
+[2017.10.04-19.23.41:140][ 91]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.04-19.23.41:140][ 91]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2017.10.04-19.23.41:140][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinballLevel.PinballLevel to /Game/UEDPIE_0_PinballLevel.PinballLevel (0.013485s)
+[2017.10.04-19.23.41:166][ 91]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-19.23.41:174][ 91]LogInit: FAudioDevice initialized.
+[2017.10.04-19.23.41:204][ 91]LogLoad: Game class is 'PinballGameMode_C'
+[2017.10.04-19.23.41:207][ 91]LogWorld: Bringing World /Game/UEDPIE_0_PinballLevel.PinballLevel up for play (max tick rate 0) at 2017.10.04-15.23.41
+[2017.10.04-19.23.41:207][ 91]LogWorld: Bringing up level for play took: 0.002394
+[2017.10.04-19.23.41:210][ 91]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinballLevel -0.003
+[2017.10.04-19.24.02:624][626]BlueprintLog: New page: Compile PinballGameMode
+[2017.10.04-19.24.04:801][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.10.04-19.24.04:910][856]LogSavePackage: Save=103.87ms
+[2017.10.04-19.24.04:910][856]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballGameMode6C61142544E551E1FC53D985F778A8DB.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2017.10.04-19.24.04:914][856]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Blueprints/PinballGameMode.uasset
