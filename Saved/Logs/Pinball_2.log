@@ -1,9 +1,9 @@
-﻿Log file open, 09/05/17 22:30:53
+﻿Log file open, 10/07/17 10:08:20
 LogInit:Display: Running engine for game: Pinball
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1022513326) SRandInit(1022513327).
+LogInit:Display: RandInit(-1526410345) SRandInit(-1526410345).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.118669
+LogStats: Stats thread started at 0.094497
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,48 +45,434 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line:  /Temp/Autosaves/Game/UEDPCPinballLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
+LogInit: Command line:  
 LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.06-02.30.55:528][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.06-02.30.55:528][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.06-02.30.55:533][  0]LogInit: Computer: CDIETSCHDESKTOP
-[2017.09.06-02.30.55:533][  0]LogInit: User: cdietsch
-[2017.09.06-02.30.55:533][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.06-02.30.55:533][  0]LogInit: High frequency timer resolution =3.124095 MHz
-[2017.09.06-02.30.55:533][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.06-02.30.55:533][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.06-02.30.55:533][  0]LogMemory: Process Physical Memory: 272.05 MB used, 272.05 MB peak
-[2017.09.06-02.30.55:533][  0]LogMemory: Process Virtual Memory: 258.48 MB used, 258.48 MB peak
-[2017.09.06-02.30.55:533][  0]LogMemory: Physical Memory: 6794.86 MB used,  1317.46 MB free, 8112.32 MB total
-[2017.09.06-02.30.55:533][  0]LogMemory: Virtual Memory: 635.55 MB used,  1317.46 MB free, 134217728.00 MB total
-[2017.09.06-02.30.55:849][  0]LogInit: Using OS detected language (en-US).
-[2017.09.06-02.30.55:849][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.06-02.30.55:854][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.06-02.30.57:224][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.06-02.30.57:242][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
-[2017.09.06-02.30.57:242][  0]LogD3D11RHI:       3053/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.09.06-02.30.57:244][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.06-02.30.57:244][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.06-02.30.57:244][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.06-02.30.57:251][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.06-02.30.57:251][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.06-02.30.57:251][  0]LogWindows: EnumDisplayDevices:
-[2017.09.06-02.30.57:252][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
-[2017.09.06-02.30.57:252][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.09.06-02.30.57:252][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.09.06-02.30.57:253][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.09.06-02.30.57:253][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.09.06-02.30.57:253][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
-[2017.09.06-02.30.57:253][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.09.06-02.30.57:253][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
-[2017.09.06-02.30.57:253][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
-[2017.09.06-02.30.57:253][  0]LogD3D11RHI:      Driver Date: 4-24-2017
-[2017.09.06-02.30.57:253][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.06-02.30.57:306][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.06-02.30.57:316][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.09.06-02.30.57:316][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../GameEngines/Udemy/Pinball/Intermediate/Shaders/WorkingDirectory/7808/).
-[2017.09.06-02.30.57:316][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cdietsch/AppData/Local/Temp/UnrealShaderWorkingDir/A1EFD60C46D5233111ACBE932950658D/'.
-[2017.09.06-02.30.57:317][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.07-14.08.20:990][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-14.08.20:990][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.07-14.08.21:001][  0]LogInit: Computer: CDIETSCHDESKTOP
+[2017.10.07-14.08.21:001][  0]LogInit: User: cdietsch
+[2017.10.07-14.08.21:001][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.07-14.08.21:001][  0]LogInit: High frequency timer resolution =3.124090 MHz
+[2017.10.07-14.08.21:002][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.07-14.08.21:002][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-14.08.21:002][  0]LogMemory: Process Physical Memory: 272.21 MB used, 272.21 MB peak
+[2017.10.07-14.08.21:002][  0]LogMemory: Process Virtual Memory: 258.48 MB used, 258.48 MB peak
+[2017.10.07-14.08.21:002][  0]LogMemory: Physical Memory: 6148.13 MB used,  1964.20 MB free, 8112.32 MB total
+[2017.10.07-14.08.21:002][  0]LogMemory: Virtual Memory: 635.54 MB used,  1964.20 MB free, 134217728.00 MB total
+[2017.10.07-14.08.21:048][  0]LogInit: Using OS detected language (en-US).
+[2017.10.07-14.08.21:048][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.07-14.08.21:052][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.07-14.08.21:998][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.07-14.08.22:008][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 / HD 7900 Series' (Feature Level 11_0)
+[2017.10.07-14.08.22:008][  0]LogD3D11RHI:       3053/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.10.07-14.08.22:009][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.07-14.08.22:009][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.07-14.08.22:009][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.07-14.08.22:015][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.07-14.08.22:015][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.07-14.08.22:015][  0]LogWindows: EnumDisplayDevices:
+[2017.10.07-14.08.22:015][  0]LogWindows:    0. 'AMD Radeon R9 200 / HD 7900 Series' (P:1 D:1)
+[2017.10.07-14.08.22:015][  0]LogWindows:    1. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.07-14.08.22:015][  0]LogWindows:    2. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.07-14.08.22:015][  0]LogWindows:    3. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.07-14.08.22:015][  0]LogWindows:    4. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.07-14.08.22:016][  0]LogWindows:    5. 'AMD Radeon R9 200 / HD 7900 Series' (P:0 D:0)
+[2017.10.07-14.08.22:016][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.10.07-14.08.22:016][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 / HD 7900 Series
+[2017.10.07-14.08.22:016][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.10.07-14.08.22:016][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.10.07-14.08.22:016][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.07-14.08.22:051][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.07-14.08.22:060][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.10.07-14.08.22:060][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../GameEngines/Udemy/Pinball/Intermediate/Shaders/WorkingDirectory/9044/).
+[2017.10.07-14.08.22:060][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cdietsch/AppData/Local/Temp/UnrealShaderWorkingDir/1A49375E42E8B9F5A3964DA98D7F4265/'.
+[2017.10.07-14.08.22:060][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.07-14.08.23:069][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.07-14.08.23:109][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.07-14.08.23:148][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.07-14.08.23:188][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.07-14.08.23:228][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.07-14.08.23:268][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.07-14.08.23:308][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.07-14.08.23:347][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.07-14.08.23:381][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.07-14.08.23:420][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.07-14.08.23:459][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.07-14.08.23:498][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.07-14.08.23:538][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.07-14.08.23:577][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.07-14.08.23:616][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.07-14.08.23:702][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.07-14.08.23:702][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.07-14.08.23:731][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.07-14.08.23:807][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.07-14.08.23:829][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.07-14.08.23:868][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.07-14.08.23:906][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.07-14.08.23:945][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.07-14.08.23:984][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.07-14.08.23:984][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.07-14.08.24:342][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.07-14.08.24:456][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-14.08.24:456][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.07-14.08.24:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameEngines/Udemy/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.07-14.08.24:456][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.07-14.08.24:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameEngines/Udemy/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.07-14.08.24:456][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.07-14.08.24:472][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.07-14.08.24:484][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cdietsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.07-14.08.24:494][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.07-14.08.24:494][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.07-14.08.24:495][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-14.08.24:495][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-14.08.24:830][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-14.08.24:925][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.07-14.08.25:065][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.07-14.08.25:100][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.07-14.08.25:145][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.07-14.08.25:145][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.07-14.08.25:145][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.07-14.08.25:623][  0]LogNetVersion: Pinball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 512650681)
+[2017.10.07-14.08.25:677][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.10.07-14.08.25:730][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.038574 seconds
+[2017.10.07-14.08.25:736][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.07-14.08.25:736][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.07-14.08.25:736][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.07-14.08.25:778][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.07-14.08.27:991][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.07-14.08.28:026][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.07-14.08.28:473][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.07-14.08.28:807][  0]SourceControl: Info Source control is disabled
+[2017.10.07-14.08.28:842][  0]SourceControl: Info Source control is disabled
+[2017.10.07-14.08.28:882][  0]SourceControl: Info Source control is disabled
+[2017.10.07-14.08.28:921][  0]SourceControl: Info Source control is disabled
+[2017.10.07-14.08.29:467][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.07-14.08.29:958][  0]LogEngine: Initializing Engine...
+[2017.10.07-14.08.29:959][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.10.07-14.08.30:150][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.07-14.08.30:150][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.07-14.08.30:249][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-14.08.30:260][  0]LogInit: XAudio2 using '1 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-14.08.30:277][  0]LogInit: FAudioDevice initialized.
+[2017.10.07-14.08.30:325][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/cdietsch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-14.08.30:333][  0]LogInit: Texture streaming: Enabled
+[2017.10.07-14.08.30:397][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.07-14.08.30:565][  0]LogInit: Transaction tracking system initialized
+[2017.10.07-14.08.30:798][  0]BlueprintLog: New page: Editor Load
+[2017.10.07-14.08.31:497][  0]LocalizationService: Info Localization service is disabled
+[2017.10.07-14.08.32:031][  0]LogConsoleResponse:Display: 
+[2017.10.07-14.08.32:159][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.07-14.08.32:159][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.07-14.08.32:935][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/' took 0.01s
+[2017.10.07-14.08.32:970][  0]SourceControl: Info Source control is disabled
+[2017.10.07-14.08.32:970][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-14.08.32:971][  0]LightingResults: New page: Lighting Build
+[2017.10.07-14.08.33:002][  0]MapCheck: New page: Map Check
+[2017.10.07-14.08.33:002][  0]LightingResults: New page: Lighting Build
+[2017.10.07-14.08.33:186][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.07-14.08.33:187][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-14.08.33:191][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-14.08.33:204][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-14.08.33:257][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.252ms to complete.
+[2017.10.07-14.08.33:257][  0]LogFileHelpers: Loading map 'Template_Default' took 0.286
+[2017.10.07-14.08.33:382][  0]LogCollectionManager: Loaded 0 collections in 0.001409 seconds
+[2017.10.07-14.08.33:452][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Saved/Collections/' took 0.01s
+[2017.10.07-14.08.33:452][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/Developers/cdietsch/Collections/' took 0.01s
+[2017.10.07-14.08.33:452][  0]LogFileCache: Scanning file cache for directory 'D:/GameEngines/Udemy/Pinball/Content/Collections/' took 0.01s
+[2017.10.07-14.08.33:452][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.07-14.08.33:461][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2329 classes and 491 folders.
+[2017.10.07-14.08.33:509][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.07-14.08.33:561][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.07-14.08.33:597][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.07-14.08.33:665][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.07-14.08.34:556][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.10.07-14.08.34:577][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-14.08.34:579][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.07-14.08.34:584][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.07-14.08.34:669][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+[2017.10.07-14.08.34:669][  0]LogTemp: CWD: D:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.07-14.08.34:669][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.16
+[2017.10.07-14.08.34:669][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.07-14.08.34:669][  0]LogTemp: BranchPath = CDIETSCHDESKTOP/D/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = CDIETSCHDESKTOP/D/Epic Games/UE_4.16/Engine/Binaries
+[2017.10.07-14.08.34:669][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\cdietsch\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.07-14.08.34:669][  0]LogRenderer: Reallocating scene render targets to support 816x444 NumSamples 1 (Frame:1).
+[2017.10.07-14.08.34:767][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.07-14.08.34:824][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.07-14.08.34:824][  0]LogLoad: (Engine Initialization) Total time: 15.46 seconds
+[2017.10.07-14.08.34:824][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.10.07-14.08.34:824][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.07-14.08.34:824][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.07-14.08.34:841][  0]LogOcInput: OculusInput pre-init called
+[2017.10.07-14.08.34:841][  0]LogHMD: Starting GearVRController plugin
+[2017.10.07-14.08.34:857][  0]LogAssetRegistry: Asset discovery search completed in 9.2016 seconds
+[2017.10.07-14.08.34:858][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.07-14.08.34:858][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.10.07-14.08.34:859][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.07-14.08.34:914][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-14.08.39:522][519]Cmd: MAP LOAD FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-14.08.39:522][519]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.07-14.08.39:522][519]LightingResults: New page: Lighting Build
+[2017.10.07-14.08.39:523][519]LoadErrors: New page: Loading map: PinballLevel.umap
+[2017.10.07-14.08.39:523][519]MapCheck: New page: Map Check
+[2017.10.07-14.08.39:523][519]LightingResults: New page: Lighting Build
+[2017.10.07-14.08.40:227][519]LogAIModule: Creating AISystem for world PinballLevel
+[2017.10.07-14.08.40:308][519]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-14.08.40:378][519]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-14.08.40:443][519]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.784ms to complete.
+[2017.10.07-14.08.40:443][519]LogFileHelpers: Loading map 'PinballLevel' took 0.922
+[2017.10.07-14.09.08:384][324]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-14.09.08:459][324]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.07-14.09.37:584][559]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.09.39:494][717]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.09.39:759][717]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.09.39:797][717]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.09.39:847][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.07-14.09.39:852][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.09.39:856][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.07-14.09.39:898][717]LogSlate: Took 0.010993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.07-14.09.40:754][778]LogSlate: Took 0.022605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.07-14.09.58:991][947]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.09.59:009][947]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.10.14:743][810]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-14.10.19:000][191]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.10.19:022][191]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.07-14.10.23:562][720]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.10.25:282][917]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.10.31:952][709]LogMaterialEditor: Applying material AdvancedDecal
+[2017.10.07-14.10.32:548][709]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.10.32:598][709]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.10.32:620][709]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.10.32:664][709]TextureStreamingBuild:Display: Compiling optional shaders took 0.001 seconds.
+[2017.10.07-14.11.30:590][410]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.30:610][410]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.11.36:514][108]LogMaterialEditor: Saving and Compiling material AdvancedDecal
+[2017.10.07-14.11.37:089][108]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.37:147][108]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.37:169][108]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.37:194][108]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.11.40:991][108]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-14.11.41:018][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AdvancedDecal" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset" SILENT=true
+[2017.10.07-14.11.41:078][108]LogSavePackage: Save=55.55ms
+[2017.10.07-14.11.41:078][108]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/AdvancedDecal662748DA40EF36657C713DBA54E212F5.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset'
+[2017.10.07-14.11.41:084][108]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset
+[2017.10.07-14.11.44:070][465]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.45:679][651]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.50:346][202]LogMaterialEditor: Applying material AdvancedDecal
+[2017.10.07-14.11.50:934][202]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.50:978][202]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.51:001][202]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.11.51:025][202]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.12.10:563][488]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.12.11:658][615]LogMaterialEditor: Applying material AdvancedDecal
+[2017.10.07-14.12.12:273][615]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.12.12:323][615]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.12.12:347][615]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.12.12:376][615]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.12.44:544][380]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.12.44:565][380]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.07-14.13.07:075][ 68]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.07:093][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.07-14.13.10:693][487]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.10:714][487]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.13.19:990][588]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.27:405][469]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.35:570][440]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.35:570][440]LogMaterial:Warning: Failed to compile Material /Engine/Transient.AdvancedDecal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.07-14.13.35:570][440]LogMaterial:Warning: 	(Node StaticComponentMaskParameter) Couldn't determine result type of component mask 0000
+[2017.10.07-14.13.35:580][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.13.35:954][482]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.35:972][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.13.40:481][ 12]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.40:481][ 12]LogMaterial:Warning: Failed to compile Material /Engine/Transient.AdvancedDecal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.07-14.13.40:481][ 12]LogMaterial:Warning: 	(Node StaticComponentMaskParameter) Couldn't determine result type of component mask 0000
+[2017.10.07-14.13.40:488][ 12]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.13.40:861][ 54]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.13.40:884][ 54]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.13.55:333][775]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.14.35:765][615]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.14.43:742][562]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.14.50:845][405]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.14.57:235][154]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionPower'MaterialGraphNode_3.MaterialExpressionPower_0')'
+[2017.10.07-14.14.57:236][154]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSampleParameter2D'MaterialGraphNode_5.MaterialExpressionTextureSampleParameter2D_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2017.10.07-14.14.57:236][154]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialGraphNode_4.MaterialExpressionMultiply_0')'
+[2017.10.07-14.14.57:237][154]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionStaticComponentMaskParameter'MaterialGraphNode_2.MaterialExpressionStaticComponentMaskParameter_0')'
+[2017.10.07-14.14.57:254][154]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.14.57:322][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.14.57:327][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.07-14.14.57:331][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_1, compiling. 
+[2017.10.07-14.14.57:335][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.10.07-14.15.09:340][580]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.15.09:358][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_1, compiling. 
+[2017.10.07-14.15.09:388][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.10.07-14.15.13:737][ 90]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.15.13:757][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_1, compiling. 
+[2017.10.07-14.15.18:196][612]LogMaterialEditor: Saving and Compiling material AdvancedDecal
+[2017.10.07-14.15.18:773][612]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.15.18:817][612]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.15.18:839][612]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.15.18:864][612]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.15.22:592][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AdvancedDecal" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset" SILENT=true
+[2017.10.07-14.15.23:363][612]LogSavePackage: Save=20.30ms
+[2017.10.07-14.15.23:363][612]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/AdvancedDecal7B2E58624776B01D227A2382904A7705.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset'
+[2017.10.07-14.15.23:367][612]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset
+[2017.10.07-14.15.39:302][523]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.15.39:322][523]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_1, compiling. 
+[2017.10.07-14.15.39:772][573]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.15.39:792][573]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_1, compiling. 
+[2017.10.07-14.16.10:479][243]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.16.20:088][387]LogMaterialEditor: Applying material AdvancedDecal
+[2017.10.07-14.16.20:679][387]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.16.20:723][387]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.16.20:749][387]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.16.20:774][387]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.16.23:788][738]LogMaterialEditor: Saving and Compiling material AdvancedDecal
+[2017.10.07-14.16.25:780][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AdvancedDecal" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset" SILENT=true
+[2017.10.07-14.16.25:803][738]LogSavePackage: Save=16.38ms
+[2017.10.07-14.16.25:803][738]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/AdvancedDecalD0BED93A47525C96CC6C8488F40AA329.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset'
+[2017.10.07-14.16.25:807][738]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset
+[2017.10.07-14.16.59:795][709]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.16.59:811][709]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.17.12:505][214]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.17.12:544][214]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.07-14.17.12:549][214]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.17.18:919][966]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.17.18:941][966]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.17.23:580][512]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.17.23:596][512]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.07-14.17.35:647][946]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.17.41:425][630]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.17.41:446][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.07-14.17.42:957][803]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.17.42:981][803]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.17.49:412][558]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.07-14.17.49:418][558]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.00:907][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.00:944][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.00:974][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:004][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:035][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:065][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:095][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:127][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:156][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:186][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:217][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:247][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:279][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:309][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:339][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.01:479][918]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.07-14.18.01:487][918]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.01:507][918]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.02:402][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.02:458][ 22]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.02:489][ 22]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.02:518][ 22]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.02:952][ 70]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.07-14.18.02:959][ 70]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.02:980][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.11:219][ 46]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.07-14.18.11:227][ 46]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.11:249][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.18.18:230][871]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.50:767][757]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.50:768][757]LogMaterial:Warning: Failed to compile Material /Engine/Transient.AdvancedDecal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.07-14.18.50:768][757]LogMaterial:Warning: 	(Node StaticComponentMaskParameter) Couldn't determine result type of component mask 0000
+[2017.10.07-14.18.50:775][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_1, compiling. 
+[2017.10.07-14.18.51:136][797]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.51:154][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_1, compiling. 
+[2017.10.07-14.18.53:177][ 31]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.53:177][ 31]LogMaterial:Warning: Failed to compile Material /Engine/Transient.AdvancedDecal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.07-14.18.53:177][ 31]LogMaterial:Warning: 	(Node StaticComponentMaskParameter) Couldn't determine result type of component mask 0000
+[2017.10.07-14.18.53:181][ 31]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.18.53:717][ 91]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.18.53:736][ 91]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionStaticComponentMaskParameter_0, compiling. 
+[2017.10.07-14.18.57:623][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.07-14.18.57:770][532]LogSavePackage: Save=137.48ms
+[2017.10.07-14.18.57:771][532]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevel_Auto13081EDF5431AB9F9EDE049B1E6B08EC7.tmp' to '../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto1.umap'
+[2017.10.07-14.18.57:778][532]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Saved/Autosaves/Game/PinballLevel_Auto1.umap
+[2017.10.07-14.18.57:780][532]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinballLevel' took 0.243
+[2017.10.07-14.18.57:780][532]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.243
+[2017.10.07-14.19.01:781][  9]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.19.01:786][  9]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.19.06:187][520]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.19.06:192][520]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.19.06:211][520]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.16:404][730]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.19.16:410][730]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.19.16:428][730]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.54:391][272]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.19.54:397][272]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.19.54:418][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:584][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:683][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:713][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:743][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:773][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:802][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:835][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:865][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:898][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:928][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:958][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.58:988][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.19.59:254][793]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.19.59:262][793]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.19.59:288][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.20.01:994][106]LogMaterialEditor: Applying material AdvancedDecal
+[2017.10.07-14.20.02:602][106]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.20.02:614][106]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.02:659][106]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.02:682][106]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.02:708][106]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.20.26:008][853]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.20.26:014][853]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.26:035][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.10.07-14.20.29:612][268]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.20.29:618][268]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.29:639][268]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.07-14.20.31:960][536]LogMaterialEditor: Saving and Compiling material AdvancedDecal
+[2017.10.07-14.20.32:547][536]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.10.07-14.20.32:558][536]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.32:600][536]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.32:622][536]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.20.32:648][536]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.20.36:440][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AdvancedDecal" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset" SILENT=true
+[2017.10.07-14.20.36:480][536]LogSavePackage: Save=18.40ms
+[2017.10.07-14.20.36:480][536]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/AdvancedDecalD66E87C84463E9F181D8408FD8B47E05.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset'
+[2017.10.07-14.20.36:483][536]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset
+[2017.10.07-14.20.45:413][421]LogEditorViewport: Clicking on Actor (LMB): DecalActor (DecalActor6)
+[2017.10.07-14.25.26:692][490]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.25.28:511][698]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.10.07-14.25.28:518][698]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.25.30:287][899]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.25.50:420][294]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.25.50:437][294]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.26.12:483][926]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.26.15:031][219]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.26.16:335][370]LogMaterialEditor: Applying material AdvancedDecal
+[2017.10.07-14.26.16:964][370]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.26.17:013][370]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.26.17:039][370]LogMaterial: Missing cached shader map for material AdvancedDecal, compiling. 
+[2017.10.07-14.26.17:067][370]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.10.07-14.26.35:562][475]Cmd: SELECT NONE
+[2017.10.07-14.26.40:984][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-14.26.41:148][ 68]LogSavePackage: Save=144.41ms
+[2017.10.07-14.26.41:148][ 68]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevelB0DC054745B7717BD1E4C1AE0A5FD4AE.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.10.07-14.26.41:153][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.10.07-14.26.41:216][ 68]LogFileHelpers: Saving map 'PinballLevel' took 0.299
+[2017.10.07-14.26.41:235][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AdvancedDecal" FILE="../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset" SILENT=true
+[2017.10.07-14.26.41:263][ 68]LogSavePackage: Save=18.02ms
+[2017.10.07-14.26.41:263][ 68]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/AdvancedDecalFA4D93A946A04E17AE445A8181CFB182.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset'
+[2017.10.07-14.26.41:265][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/Assets/AdvancedDecal.uasset
+[2017.10.07-14.28.08:911][602]LogEditorViewport: Clicking on Actor (LMB): DecalActor (DecalActor6)
+[2017.10.07-14.28.10:587][798]LogEditorViewport: Clicking on Actor (LMB): DecalActor (DecalActor6)
+[2017.10.07-14.28.11:215][871]LogEditorViewport: Clicking on Actor (LMB): DecalActor (DecalActor6)
+[2017.10.07-14.28.19:779][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinballLevel" FILE="../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-14.28.19:925][854]LogSavePackage: Save=132.32ms
+[2017.10.07-14.28.19:925][854]LogSavePackage: Moving '../../../../../GameEngines/Udemy/Pinball/Saved/PinballLevelFDF6E06645F9D9E98524749E4ABFA27E.tmp' to '../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap'
+[2017.10.07-14.28.19:929][854]LogSavePackage:Display: Finished SavePackage ../../../../../GameEngines/Udemy/Pinball/Content/PinballLevel.umap
+[2017.10.07-14.28.19:993][854]LogFileHelpers: Saving map 'PinballLevel' took 0.282
